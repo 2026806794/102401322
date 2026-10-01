@@ -1,0 +1,13 @@
+# 统一换行符：源码都用 LF 存，避免在不同系统上打开时整文件都算改动
+* text=auto eol=lf
+
+# 这些是二进制文件，不要动
+*.png binary
+*.jpg binary
+*.xlsx binary
+*.prof binary
+*.ttc binary
+*.ico binary
+
+# 生成的 HTML 也是文本，按 LF 存
+*.html text eol=lf
