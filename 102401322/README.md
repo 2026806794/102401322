@@ -54,7 +54,7 @@
     │       ├── dashboard.py      # 可视化大屏（自建 ECharts 配置 + CSS Grid）
     │       ├── html_common.py    # 两个 HTML 页面共用的 echarts 脚本
     │       └── trend_report.py   # 附加题趋势报告
-    ├── tests/                    # 155 个单元测试（语句覆盖率 81%，分支覆盖率 90%）
+    ├── tests/                    # 155 个单元测试（语句覆盖率 81%，分支覆盖率 89%）
     ├── scripts/                  # 性能剖析、博客数据注入、API 推送脚本
     ├── data/                     # 原始缓存与中间结果
     ├── output/                   # 产出：图表 / Excel / HTML / 性能报告

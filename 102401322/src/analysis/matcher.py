@@ -129,18 +129,6 @@ class AhoCorasick:
                     counter[label] = counter.get(label, 0) + 1
         return counter
 
-    def find_matches(self, text):
-        """返回 [(结束位置, 标签), ...]，需要知道命中在哪儿的时候用。"""
-        matches = []
-        node = 0
-        for index, char in enumerate(text):
-            while node and char not in self.children[node]:
-                node = self.fail[node]
-            node = self.children[node].get(char, 0)
-            for label in self.outputs[node]:
-                matches.append((index, label))
-        return matches
-
     @property
     def node_count(self):
         """自动机有多少个节点（写性能报告时用）。"""

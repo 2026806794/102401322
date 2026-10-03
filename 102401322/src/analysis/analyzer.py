@@ -333,9 +333,3 @@ class DanmakuAnalyzer:
                 "danmaku_raw": info.get("danmaku_total", 0),
             })
         return rows
-
-
-def analyze_records(records, videos=None, clean_stats=None, config=None):
-    """偷懒用的函数：一步跑完分析。"""
-    analyzer = DanmakuAnalyzer(records, videos, config)
-    return analyzer.analyze(clean_stats)

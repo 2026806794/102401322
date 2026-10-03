@@ -39,11 +39,19 @@ COLUMN_NAMES = {
 
 
 def _to_dataframe(rows):
-    """把字典列表转成 DataFrame，顺便把列名换成中文。"""
+    """把字典列表转成 DataFrame，顺便把列名换成中文。
+
+    占比这一列在数据里是 0.3722 这种小数，写进表格前换成 "37.2%"，
+    打开 Excel 看的时候直观一些。
+    """
     frame = pd.DataFrame(list(rows))
     if frame.empty:
         return frame
-    return frame.rename(columns=COLUMN_NAMES)
+
+    frame = frame.rename(columns=COLUMN_NAMES)
+    if "占比" in frame.columns:
+        frame["占比"] = frame["占比"].apply(lambda x: "%.1f%%" % (x * 100))
+    return frame
 
 
 def _rename_row(row):
@@ -166,8 +174,3 @@ class ExcelExporter:
         sheets["词频明细Top500"] = _to_dataframe(rows)
 
         return sheets
-
-
-def export_analysis(result, output_path=None):
-    """偷懒用的函数：一步导出。"""
-    return ExcelExporter(output_path).export(result)

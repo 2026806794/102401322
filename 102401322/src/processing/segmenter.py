@@ -115,10 +115,6 @@ class Segmenter:
             return token
         return token.lower()
 
-    def segment_batch(self, texts):
-        """批量分词。"""
-        return [self.segment(text) for text in texts]
-
     def count_words(self, texts):
         """统计词频，返回 {词: 次数}。"""
         counter = {}

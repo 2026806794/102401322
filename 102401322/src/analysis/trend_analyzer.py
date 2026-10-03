@@ -396,9 +396,3 @@ def _complete_months(monthly, today=None):
         if item["month"] != current:
             result.append(item)
     return result
-
-
-def analyze_media(articles, danmaku_result=None):
-    """偷懒用的函数：一步跑完媒体分析。"""
-    analyzer = TrendAnalyzer(articles, danmaku_result)
-    return analyzer.analyze()

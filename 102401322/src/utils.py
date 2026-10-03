@@ -72,14 +72,6 @@ def write_json(path, data, indent=2):
         json.dump(data, f, ensure_ascii=False, indent=indent)
 
 
-def append_jsonl(path, rows):
-    """追加写 JSON Lines（一行一个 json）。弹幕数据量大，用这个格式方便边抓边存。"""
-    path.parent.mkdir(parents=True, exist_ok=True)
-    with open(path, "a", encoding="utf-8", newline="\n") as f:
-        for row in rows:
-            f.write(json.dumps(row, ensure_ascii=False) + "\n")
-
-
 def read_jsonl(path):
     """读 JSON Lines 文件，个别行坏了就跳过。"""
     if not path.exists():
