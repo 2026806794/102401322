@@ -38,28 +38,29 @@ COLUMN_NAMES = {
 }
 
 
-def _to_dataframe(rows):
-    """把字典列表转成 DataFrame，顺便把列名换成中文。
+def _translate_row(row):
+    """把一行里的英文键换成中文表头，占比顺便换成百分比。
 
-    占比这一列在数据里是 0.3722 这种小数，写进表格前换成 "37.2%"，
+    占比在数据里是 0.3722 这种小数，写进表格前换成 "37.2%"，
     打开 Excel 看的时候直观一些。
     """
-    frame = pd.DataFrame(list(rows))
-    if frame.empty:
-        return frame
-
-    frame = frame.rename(columns=COLUMN_NAMES)
-    if "占比" in frame.columns:
-        frame["占比"] = frame["占比"].apply(lambda x: "%.1f%%" % (x * 100))
-    return frame
-
-
-def _rename_row(row):
-    """把一行里的英文键换成中文表头。"""
     result = {}
     for key, value in row.items():
-        result[COLUMN_NAMES.get(key, key)] = value
+        name = COLUMN_NAMES.get(key, key)
+        if key == "ratio":
+            result[name] = f"{value * 100:.1f}%"
+        else:
+            result[name] = value
     return result
+
+
+def _to_dataframe(rows):
+    """把字典列表转成 DataFrame。
+
+    转换放在建表之前做（而不是建完再改列），代码更直白，
+    也避免了 pandas 的列赋值被静态检查误判成"不支持下标操作"。
+    """
+    return pd.DataFrame([_translate_row(row) for row in rows])
 
 
 def _style_sheet(sheet):
@@ -145,7 +146,7 @@ class ExcelExporter:
         for domain, words in result.top_words_by_category.items():
             for item in words[:top_n]:
                 row = {"应用领域": domain}
-                row.update(_rename_row(item))
+                row.update(_translate_row(item))
                 rows.append(row)
         sheets["分领域Top8词频"] = _to_dataframe(rows)
 
@@ -158,7 +159,7 @@ class ExcelExporter:
         for aspect, words in result.top_words_by_aspect.items():
             for item in words[:top_n]:
                 row = {"分析维度": aspect}
-                row.update(_rename_row(item))
+                row.update(_translate_row(item))
                 rows.append(row)
         sheets["分维度Top8词频"] = _to_dataframe(rows)
 
