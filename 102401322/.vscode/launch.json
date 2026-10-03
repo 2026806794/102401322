@@ -1,0 +1,38 @@
+{
+    // 调试配置：按 F5 可以选一个直接跑
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: 当前文件",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "name": "爬取弹幕（只抓 5 个视频试试）",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/main.py",
+            "args": [
+                "crawl",
+                "--limit",
+                "5"
+            ],
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "name": "跑单元测试",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "pytest",
+            "args": [
+                "-q"
+            ],
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}

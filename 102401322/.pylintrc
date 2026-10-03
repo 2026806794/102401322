@@ -1,0 +1,39 @@
+# pylint 代码检查的配置
+# 用法：python -m pylint src/ main.py
+#
+# 有些提示是"通用规范"和"这个项目实际情况"不一致，这里显式关掉并说明原因，
+# 剩下的能改的都改了。
+
+[MAIN]
+# 只检查语法错误和明显的 bug 级别问题之外，也看代码风格
+load-plugins =
+
+[MESSAGES CONTROL]
+disable=
+    # 文件、类、函数都有中文说明，不需要再单独写 docstring
+    missing-module-docstring,
+    missing-class-docstring,
+    missing-function-docstring,
+
+    # 有些 import 故意写在函数里面（延迟导入）：
+    # 比如 main.py 的各个子命令，只有真正执行到才 import 对应的模块，
+    # 这样 python main.py crawl 不会把 matplotlib、pandas 都加载一遍。
+    import-outside-toplevel,
+
+    # 下面几个是"类属性太多""函数参数太多"之类的提示。
+    # VideoMeta、AnalysisResult 这类就是用来装数据的，属性多很正常；
+    # analyze() 是统计主流程，局部变量多也是业务决定的，拆开反而不好读。
+    too-many-instance-attributes,
+    too-few-public-methods,
+    too-many-locals,
+    too-many-arguments,
+    too-many-positional-arguments,
+    too-many-branches,
+    too-many-statements,
+
+[BASIC]
+# 变量名最短 2 个字符，不然 log、df 这类会被判为名字太短
+good-names=i,j,k,ex,Run,_,log,df
+
+[FORMAT]
+max-line-length=100
