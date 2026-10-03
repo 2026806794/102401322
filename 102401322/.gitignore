@@ -1,20 +1,28 @@
+# Python 运行时产生的文件
 __pycache__/
 *.py[cod]
 *.egg-info/
 .venv/
 venv/
 .pytest_cache/
+
+# 覆盖率工具的中间文件（报告本身在 output/htmlcov，那个要交，见下面）
 .coverage
 coverage.xml
-htmlcov/
+/htmlcov/
+
+# 运行日志
 logs/
+
+# 剖析工具的原始数据（output/performance 下的要交，见下面）
 .prof
 *.prof
 
-# 弹幕原始缓存有 27MB，太大了不入库；想复现就重新爬一遍
+# 爬取的弹幕原始缓存有 27MB，太大了不入库；想复现就重新爬一遍
 data/raw/danmaku/*.json
 # 清洗后的弹幕明细有 19MB，属于可再生的中间结果，也不入库
 data/processed/danmaku_clean.jsonl
-# 媒体文章缓存只有 188KB，入库，这样趋势分析的结果可复现
 
-# echarts 的 js 要提交，不然别人 clone 下来大屏打不开
+# 下面这些是要交的，别被上面的规则误伤
+!output/performance/*.prof
+!output/htmlcov/**
