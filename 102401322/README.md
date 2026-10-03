@@ -57,7 +57,7 @@
     ├── tests/                    # 155 个单元测试（语句覆盖率 81%，分支覆盖率 90%）
     ├── scripts/                  # 性能剖析、博客数据注入、API 推送脚本
     ├── data/                     # 原始缓存与中间结果
-    ├── output/                   # 交付物：图表 / Excel / HTML / 性能报告
+    ├── output/                   # 产出：图表 / Excel / HTML / 性能报告
     └── docs/                     # PSP 表、博客、性能分析、设计说明、测试报告
 ```
 
@@ -92,7 +92,7 @@ python scripts/profile_analysis.py       # 性能剖析
 | 性能 | cProfile + pstats + snakeviz(可选) | 热点定位 + 优化前后量化对比 |
 | 代码质量 | flake8 + pylint | 0 个警告 / 10.00 分（配置见 setup.cfg、.pylintrc） |
 
-## 五、交付物清单
+## 五、产出文件清单
 
 | 产物 | 路径 |
 | ---- | ---- |

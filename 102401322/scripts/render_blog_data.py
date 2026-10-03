@@ -130,7 +130,7 @@ def render_media(analysis, trend):
     text += "\n\n**媒体报道高频词**：" + "、".join(words) + "\n"
 
     if forecast_rows:
-        text += "\n**B站视频发布量趋势外推（未来 3 个月）**\n\n"
+        text += "\n#### B站视频发布量趋势外推（未来 3 个月）\n\n"
         text += make_table(["预测月份", "预测视频数", "约 95% 预测区间"], forecast_rows)
         text += "\n\n> %s\n" % trend.get("video_forecast_note", "")
     return text
