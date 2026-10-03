@@ -18,41 +18,47 @@
 
 ## 二、目录结构
 
+作业要求在代码仓库里建一个学号为名的文件夹，所以仓库结构是：
+
 ```
-102401322/
-├── main.py                     # 命令行入口（crawl/clean/analyze/visualize/media/all）
-├── requirements.txt            # 依赖清单
-├── pytest.ini / conftest.py    # 测试配置
-├── src/
-│   ├── config.py               # 全局配置（路径、爬虫参数、分析参数、媒体源）
-│   ├── utils.py                # 日志、JSON 读写、计时、文本规范化
-│   ├── pipeline.py             # 流水线编排：清洗 → 统计 → 导出 → 可视化 → 媒体
-│   ├── crawler/                # 爬虫层
-│   │   ├── wbi.py              # B站 wbi 签名（置换表 + md5）
-│   │   ├── bilibili_client.py  # 会话/限流/重试 + 弹幕双通道解析
-│   │   ├── danmaku_fetcher.py  # 任务编排、缓存、断点续爬
-│   │   └── media_spider.py     # 附加题：科技媒体 RSS 爬虫
-│   ├── processing/             # 处理层
-│   │   ├── noise_lexicon.py    # 噪声词表 / 停用词 / jieba 领域词典
-│   │   ├── cleaner.py          # 弹幕清洗与去重
-│   │   └── segmenter.py        # jieba 分词（带结果缓存）
-│   ├── analysis/               # 分析层
-│   │   ├── lexicon.py          # 案例/领域/态度/成本/风险五类领域词典
-│   │   ├── matcher.py          # Aho-Corasick 多模式匹配自动机
-│   │   ├── analyzer.py         # 统计分析主流程
-│   │   ├── exporter.py         # xlsx 导出（13 个工作表）
-│   │   └── trend_analyzer.py   # 附加题：媒体趋势与预测
-│   └── visualization/          # 可视化层
-│       ├── theme.py            # 统一配色与中文字体
-│       ├── wordcloud_chart.py  # 四张中文词云
-│       ├── charts.py           # 六张统计图
-│       ├── dashboard.py        # 可视化大屏（自建 ECharts 配置 + CSS Grid）
-│       └── trend_report.py     # 附加题趋势报告
-├── tests/                      # 155 个单元测试（覆盖率 81%）
-├── scripts/profile_analysis.py # 性能剖析与优化验证
-├── data/                       # 原始缓存与中间结果
-├── output/                     # 交付物：图表 / Excel / HTML / 性能报告
-└── docs/                       # PSP 表、博客、性能分析、设计说明
+102401322/                        ← 仓库根目录
+└── 102401322/                    ← 学号为名的文件夹，代码都放这里
+    ├── main.py                   # 命令行入口（crawl/clean/analyze/visualize/media/all）
+    ├── requirements.txt          # 依赖清单
+    ├── pytest.ini / conftest.py  # 测试配置
+    ├── setup.cfg / .pylintrc     # 代码质量检查配置（flake8 / pylint）
+    ├── .vscode/                  # VS Code 的工作区配置和调试配置
+    ├── src/
+    │   ├── config.py             # 全局配置（路径、爬虫参数、分析参数、媒体源）
+    │   ├── utils.py              # 日志、JSON 读写、计时、文本规范化
+    │   ├── pipeline.py           # 流水线编排：清洗 → 统计 → 导出 → 可视化 → 媒体
+    │   ├── crawler/              # 爬虫层
+    │   │   ├── wbi.py            # B站 wbi 签名（置换表 + md5）
+    │   │   ├── bilibili_client.py  # 会话/限流/重试 + 弹幕 XML 与 protobuf 解析
+    │   │   ├── danmaku_fetcher.py  # 任务编排、缓存、断点续爬
+    │   │   └── media_spider.py     # 附加题：科技媒体 RSS 爬虫
+    │   ├── processing/           # 处理层
+    │   │   ├── noise_lexicon.py  # 噪声词表 / 停用词 / jieba 领域词典
+    │   │   ├── cleaner.py        # 弹幕清洗与去重
+    │   │   └── segmenter.py      # jieba 分词（带结果缓存）
+    │   ├── analysis/             # 分析层
+    │   │   ├── lexicon.py        # 案例/领域/态度/成本/风险五类领域词典
+    │   │   ├── matcher.py        # Aho-Corasick 多模式匹配自动机
+    │   │   ├── analyzer.py       # 统计分析主流程
+    │   │   ├── exporter.py       # xlsx 导出（13 个工作表）
+    │   │   └── trend_analyzer.py # 附加题：媒体趋势与预测
+    │   └── visualization/        # 可视化层
+    │       ├── theme.py          # 统一配色与中文字体
+    │       ├── wordcloud_chart.py  # 四张中文词云
+    │       ├── charts.py         # 六张统计图
+    │       ├── dashboard.py      # 可视化大屏（自建 ECharts 配置 + CSS Grid）
+    │       ├── html_common.py    # 两个 HTML 页面共用的 echarts 脚本
+    │       └── trend_report.py   # 附加题趋势报告
+    ├── tests/                    # 155 个单元测试（语句覆盖率 81%，分支覆盖率 90%）
+    ├── scripts/                  # 性能剖析、博客数据注入、API 推送脚本
+    ├── data/                     # 原始缓存与中间结果
+    ├── output/                   # 交付物：图表 / Excel / HTML / 性能报告
+    └── docs/                     # PSP 表、博客、性能分析、设计说明、测试报告
 ```
 
 ## 三、快速开始
@@ -84,6 +90,7 @@ python scripts/profile_analysis.py       # 性能剖析
 | 可视化 | matplotlib + wordcloud + Apache ECharts | 词云/统计图离线生成，大屏为自建 HTML |
 | 测试 | pytest + pytest-cov | 155 个用例，核心模块覆盖率 92%~99% |
 | 性能 | cProfile + pstats + snakeviz(可选) | 热点定位 + 优化前后量化对比 |
+| 代码质量 | flake8 + pylint | 0 个警告 / 10.00 分（配置见 setup.cfg、.pylintrc） |
 
 ## 五、交付物清单
 
