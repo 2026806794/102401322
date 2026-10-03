@@ -1,0 +1,28 @@
+         13935856 function calls (13935795 primitive calls) in 5.448 seconds
+
+   Ordered by: cumulative time
+   List reduced from 209 to 20 due to restriction <20>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.289    0.289    5.448    5.448 D:\个人作业\102401322\src\analysis\analyzer.py:139(analyze)
+    61556    0.183    0.000    4.026    0.000 D:\个人作业\102401322\src\processing\segmenter.py:84(segment)
+    45038    0.085    0.000    3.073    0.000 C:\Users\20268\AppData\Local\Programs\Python\Python313\Lib\site-packages\jieba\__init__.py:356(lcut)
+   362686    0.189    0.000    2.988    0.000 C:\Users\20268\AppData\Local\Programs\Python\Python313\Lib\site-packages\jieba\__init__.py:289(cut)
+   350044    0.213    0.000    2.700    0.000 C:\Users\20268\AppData\Local\Programs\Python\Python313\Lib\site-packages\jieba\__init__.py:249(__cut_DAG)
+   151902    0.117    0.000    0.972    0.000 C:\Users\20268\AppData\Local\Programs\Python\Python313\Lib\site-packages\jieba\finalseg\__init__.py:85(cut)
+    69305    0.203    0.000    0.887    0.000 C:\Users\20268\AppData\Local\Programs\Python\Python313\Lib\site-packages\jieba\__init__.py:172(calc)
+   307780    0.543    0.000    0.884    0.000 D:\个人作业\102401322\src\analysis\matcher.py:98(find_labels)
+   796474    0.258    0.000    0.772    0.000 {built-in method builtins.max}
+  5472769    0.764    0.000    0.764    0.000 {method 'get' of 'dict' objects}
+   130395    0.073    0.000    0.762    0.000 C:\Users\20268\AppData\Local\Programs\Python\Python313\Lib\site-packages\jieba\finalseg\__init__.py:59(__cut)
+    42380    0.396    0.000    0.685    0.000 C:\Users\20268\AppData\Local\Programs\Python\Python313\Lib\site-packages\jieba\finalseg\__init__.py:37(viterbi)
+    69305    0.516    0.000    0.597    0.000 C:\Users\20268\AppData\Local\Programs\Python\Python313\Lib\site-packages\jieba\__init__.py:180(get_DAG)
+  1155518    0.328    0.000    0.479    0.000 C:\Users\20268\AppData\Local\Programs\Python\Python313\Lib\site-packages\jieba\__init__.py:177(<genexpr>)
+    69450    0.008    0.000    0.389    0.000 C:\Users\20268\AppData\Local\Programs\Python\Python313\Lib\site-packages\jieba\__init__.py:168(check_initialized)
+    45038    0.005    0.000    0.387    0.000 D:\个人作业\102401322\src\processing\segmenter.py:55(_ensure_initialized)
+      145    0.000    0.000    0.382    0.003 C:\Users\20268\AppData\Local\Programs\Python\Python313\Lib\site-packages\jieba\__init__.py:418(add_word)
+        2    0.000    0.000    0.382    0.191 C:\Users\20268\AppData\Local\Programs\Python\Python313\Lib\site-packages\jieba\__init__.py:93(initialize)
+        1    0.380    0.380    0.380    0.380 {built-in method marshal.load}
+   317648    0.137    0.000    0.236    0.000 D:\个人作业\102401322\src\processing\segmenter.py:73(is_meaningful)
+
+

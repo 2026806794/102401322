@@ -1,0 +1,1130 @@
+{
+  "count": 124,
+  "sources": [
+    "量子位",
+    "InfoQ 中国",
+    "少数派",
+    "Solidot",
+    "开源中国",
+    "VentureBeat AI",
+    "TechCrunch AI"
+  ],
+  "articles": [
+    {
+      "source": "量子位",
+      "region": "国内",
+      "title": "OpenAI安全团队持续地震！负责人离职，三名员工因泄密被开",
+      "link": "https://www.qbitai.com/2026/10/501368.html",
+      "published": "2026-10-03T04:41:24+00:00",
+      "summary": "又咋啦。。。",
+      "fetched_at": "2026-10-03T05:20:25+00:00"
+    },
+    {
+      "source": "量子位",
+      "region": "国内",
+      "title": "Jev估值100亿美元！创始人Diogo Almeida回答一切",
+      "link": "https://www.qbitai.com/2026/10/500148.html",
+      "published": "2026-10-03T02:38:19+00:00",
+      "summary": "",
+      "fetched_at": "2026-10-03T05:20:25+00:00"
+    },
+    {
+      "source": "量子位",
+      "region": "国内",
+      "title": "openJiuwen X-Router自演进模型路由技术首发，昇腾亲和，Agent越跑越省，实测减少50+%Token消耗",
+      "link": "https://www.qbitai.com/2026/10/500098.html",
+      "published": "2026-10-02T07:34:15+00:00",
+      "summary": "让每一次请求选对模型，让每一次反馈都成为下一次更优、更省的选择",
+      "fetched_at": "2026-10-03T05:20:25+00:00"
+    },
+    {
+      "source": "量子位",
+      "region": "国内",
+      "title": "丘成桐新论文致谢了GPT和Claude",
+      "link": "https://www.qbitai.com/2026/10/499991.html",
+      "published": "2026-10-02T07:27:03+00:00",
+      "summary": "44年前被亲自列入问题清单",
+      "fetched_at": "2026-10-03T05:20:25+00:00"
+    },
+    {
+      "source": "量子位",
+      "region": "国内",
+      "title": "arXiv最严新规！每人每月最多提交2篇，拒稿不退额度",
+      "link": "https://www.qbitai.com/2026/10/499958.html",
+      "published": "2026-10-02T06:46:32+00:00",
+      "summary": "换区也没用",
+      "fetched_at": "2026-10-03T05:20:25+00:00"
+    },
+    {
+      "source": "量子位",
+      "region": "国内",
+      "title": "何恺明团队新作：看猫片就能学会ARC挑战",
+      "link": "https://www.qbitai.com/2026/10/499812.html",
+      "published": "2026-10-01T15:06:30+00:00",
+      "summary": "用ImageNet训练encoder",
+      "fetched_at": "2026-10-03T05:20:25+00:00"
+    },
+    {
+      "source": "量子位",
+      "region": "国内",
+      "title": "谷歌Gemini 4突然发布！RSI加持，GPT和Opus都让让",
+      "link": "https://www.qbitai.com/2026/10/499663.html",
+      "published": "2026-10-01T15:02:14+00:00",
+      "summary": "价格只有Astra一半",
+      "fetched_at": "2026-10-03T05:20:25+00:00"
+    },
+    {
+      "source": "量子位",
+      "region": "国内",
+      "title": "OpenAI推理之父最新访谈！数学只是多智能体时代的开胃菜",
+      "link": "https://www.qbitai.com/2026/09/499654.html",
+      "published": "2026-09-30T14:03:43+00:00",
+      "summary": "千禧年难题的突破，10000个Agent最多占了10%的功劳。",
+      "fetched_at": "2026-10-03T05:20:25+00:00"
+    },
+    {
+      "source": "量子位",
+      "region": "国内",
+      "title": "直播回顾：工业AI的下一个机会在哪？",
+      "link": "https://www.qbitai.com/2026/09/499605.html",
+      "published": "2026-09-30T12:11:24+00:00",
+      "summary": "什么样的AI才适合工业现场？企业真正开始做工业AI时，又该从哪里下手？",
+      "fetched_at": "2026-10-03T05:20:25+00:00"
+    },
+    {
+      "source": "量子位",
+      "region": "国内",
+      "title": "Anthropic，你是来给智谱打广告的吧！",
+      "link": "https://www.qbitai.com/2026/09/499597.html",
+      "published": "2026-09-30T10:04:12+00:00",
+      "summary": "实测说GLM-5.3很强",
+      "fetched_at": "2026-10-03T05:20:25+00:00"
+    },
+    {
+      "source": "InfoQ 中国",
+      "region": "国内",
+      "title": "企业级 Agent Infra 架构实践：从安全沙箱到网络管控与身份治理｜QCon上海",
+      "link": "https://www.infoq.cn/article/bLB8RQ6sd3ZGQts0D4tP?utm_source=rss&utm_medium=article",
+      "published": "2026-10-03T10:00:00+00:00",
+      "summary": "点击查看原文>",
+      "fetched_at": "2026-10-03T05:20:28+00:00"
+    },
+    {
+      "source": "InfoQ 中国",
+      "region": "国内",
+      "title": "Andrew Kelley 专访：他为何创建 Zig、禁止 AI 贡献以及将 Zig 从 GitHub 移出",
+      "link": "https://www.infoq.cn/article/eRbEA3dMd58RNPqp5D8S?utm_source=rss&utm_medium=article",
+      "published": "2026-10-02T13:00:00+00:00",
+      "summary": "点击查看原文>",
+      "fetched_at": "2026-10-03T05:20:28+00:00"
+    },
+    {
+      "source": "InfoQ 中国",
+      "region": "国内",
+      "title": "Graphify：整合代码库上下文，优化基于代理的软件工程",
+      "link": "https://www.infoq.cn/article/8XuP4iZKKr3ex2VTDxpl?utm_source=rss&utm_medium=article",
+      "published": "2026-10-02T10:00:00+00:00",
+      "summary": "点击查看原文>",
+      "fetched_at": "2026-10-03T05:20:28+00:00"
+    },
+    {
+      "source": "InfoQ 中国",
+      "region": "国内",
+      "title": "别再给 Agent 一个“毛坯房”了：构建 Agent 拎包入住的开发环境实践｜QCon上海",
+      "link": "https://www.infoq.cn/article/DEyrayxufObhpoeZgOKT?utm_source=rss&utm_medium=article",
+      "published": "2026-10-02T10:00:00+00:00",
+      "summary": "点击查看原文>",
+      "fetched_at": "2026-10-03T05:20:28+00:00"
+    },
+    {
+      "source": "InfoQ 中国",
+      "region": "国内",
+      "title": "在 Cloudflare Worker 上实现多租户 SaaS 规模的模块化边缘计算",
+      "link": "https://www.infoq.cn/article/P5yCYKFiJfKAICrf8bfs?utm_source=rss&utm_medium=article",
+      "published": "2026-10-01T14:00:00+00:00",
+      "summary": "点击查看原文>",
+      "fetched_at": "2026-10-03T05:20:28+00:00"
+    },
+    {
+      "source": "InfoQ 中国",
+      "region": "国内",
+      "title": "刚刚，Gemini 4 Argon 发布：多项基测碾压 GPT-6 Astra，已参与谷歌 80 万行内核代码迁移",
+      "link": "https://www.infoq.cn/article/vVrSzjhEvkmpevS7wZzU?utm_source=rss&utm_medium=article",
+      "published": "2026-10-01T11:00:00+00:00",
+      "summary": "点击查看原文>",
+      "fetched_at": "2026-10-03T05:20:28+00:00"
+    },
+    {
+      "source": "InfoQ 中国",
+      "region": "国内",
+      "title": "Elastic Beanstalk 跑上 EKS，开发者质疑：为什么不把 ECS 做好？",
+      "link": "https://www.infoq.cn/article/AYXLumiEmzcCrKrRuq9B?utm_source=rss&utm_medium=article",
+      "published": "2026-10-01T10:00:00+00:00",
+      "summary": "点击查看原文>",
+      "fetched_at": "2026-10-03T05:20:28+00:00"
+    },
+    {
+      "source": "InfoQ 中国",
+      "region": "国内",
+      "title": "生成即合规：Agentic AIGC 驱动的广告素材修复实践｜QCon上海",
+      "link": "https://www.infoq.cn/article/TLjNcyBg9Z72HV5kJ2kp?utm_source=rss&utm_medium=article",
+      "published": "2026-10-01T10:00:00+00:00",
+      "summary": "点击查看原文>",
+      "fetched_at": "2026-10-03T05:20:28+00:00"
+    },
+    {
+      "source": "InfoQ 中国",
+      "region": "国内",
+      "title": "谷歌开源面向自主 AI 代理的 Kubernetes 风格编排器 AX",
+      "link": "https://www.infoq.cn/article/M6BRTrsyJvUg8y0M0kyh?utm_source=rss&utm_medium=article",
+      "published": "2026-09-30T20:40:07+00:00",
+      "summary": "点击查看原文>",
+      "fetched_at": "2026-10-03T05:20:28+00:00"
+    },
+    {
+      "source": "InfoQ 中国",
+      "region": "国内",
+      "title": "GitLab Duo 通过微软 Foundry 扩展自托管 AI 选项",
+      "link": "https://www.infoq.cn/article/cA9rSEGKphbJHIiTQKMv?utm_source=rss&utm_medium=article",
+      "published": "2026-09-30T20:37:48+00:00",
+      "summary": "点击查看原文>",
+      "fetched_at": "2026-10-03T05:20:28+00:00"
+    },
+    {
+      "source": "InfoQ 中国",
+      "region": "国内",
+      "title": "DeepSeek 开源昇腾平台基础设施组件，覆盖 TileLang、计算库与分布式通信库",
+      "link": "https://www.infoq.cn/article/t5i2Yv2z0LwIbK36lteR?utm_source=rss&utm_medium=article",
+      "published": "2026-09-30T19:40:16+00:00",
+      "summary": "点击查看原文>",
+      "fetched_at": "2026-10-03T05:20:28+00:00"
+    },
+    {
+      "source": "InfoQ 中国",
+      "region": "国内",
+      "title": "像改文字一样改语音：火山引擎全新语音内容编辑模型",
+      "link": "https://www.infoq.cn/article/07qzHLvyNXSW1SFNV5NV?utm_source=rss&utm_medium=article",
+      "published": "2026-09-30T19:39:04+00:00",
+      "summary": "点击查看原文>",
+      "fetched_at": "2026-10-03T05:20:28+00:00"
+    },
+    {
+      "source": "InfoQ 中国",
+      "region": "国内",
+      "title": "机房堆满算力卡，业务却还在排队？这份评估报告拆开了“算力荒假象”的破局账本",
+      "link": "https://www.infoq.cn/article/bduvBdbgwxj6DMbNeKCC?utm_source=rss&utm_medium=article",
+      "published": "2026-09-30T17:37:10+00:00",
+      "summary": "点击查看原文>",
+      "fetched_at": "2026-10-03T05:20:28+00:00"
+    },
+    {
+      "source": "InfoQ 中国",
+      "region": "国内",
+      "title": "意图驱动治理：分钟级实现敏感数据规模化保护｜ 技术实践",
+      "link": "https://www.infoq.cn/article/ZBXXP1BuZMIGusWyQZvB?utm_source=rss&utm_medium=article",
+      "published": "2026-09-30T15:42:49+00:00",
+      "summary": "点击查看原文>",
+      "fetched_at": "2026-10-03T05:20:28+00:00"
+    },
+    {
+      "source": "InfoQ 中国",
+      "region": "国内",
+      "title": "Changesets 3.0 发布：对等依赖下游包默认升补丁版本，纯 ESM 发布，安装体积缩减 88%",
+      "link": "https://www.infoq.cn/article/JEw7578VW84g7wmh75gM?utm_source=rss&utm_medium=article",
+      "published": "2026-09-30T15:25:27+00:00",
+      "summary": "点击查看原文>",
+      "fetched_at": "2026-10-03T05:20:28+00:00"
+    },
+    {
+      "source": "InfoQ 中国",
+      "region": "国内",
+      "title": "从 AI 试点到营收增长：Snowflake 销售与营销团队如何跨越落地鸿沟 ｜ 技术实践",
+      "link": "https://www.infoq.cn/article/hw3PpM2ZlCmCArsNo1y7?utm_source=rss&utm_medium=article",
+      "published": "2026-09-30T15:12:35+00:00",
+      "summary": "点击查看原文>",
+      "fetched_at": "2026-10-03T05:20:28+00:00"
+    },
+    {
+      "source": "InfoQ 中国",
+      "region": "国内",
+      "title": "一个忘关的开关，与企业Agent的全栈技术账单",
+      "link": "https://www.infoq.cn/article/z9VP6ZQ3vCxTrk1VdU5D?utm_source=rss&utm_medium=article",
+      "published": "2026-09-30T12:10:15+00:00",
+      "summary": "点击查看原文>",
+      "fetched_at": "2026-10-03T05:20:28+00:00"
+    },
+    {
+      "source": "InfoQ 中国",
+      "region": "国内",
+      "title": "首发！openJiuwen workSwarm全双工多模态 ，像聊天一样与Agent交互，昇腾算力原生亲和",
+      "link": "https://www.infoq.cn/article/fOuaRtwuySyZsS0iGg7N?utm_source=rss&utm_medium=article",
+      "published": "2026-09-30T11:52:00+00:00",
+      "summary": "点击查看原文>",
+      "fetched_at": "2026-10-03T05:20:28+00:00"
+    },
+    {
+      "source": "InfoQ 中国",
+      "region": "国内",
+      "title": "Java 近期新闻：JDK 27、Open J Proxy、A2A Jakarta、Azul Payara、BoxLang、Netflix ja",
+      "link": "https://www.infoq.cn/article/Rgb6X5RSD1P8HQzRc0K7?utm_source=rss&utm_medium=article",
+      "published": "2026-09-30T10:45:00+00:00",
+      "summary": "点击查看原文>",
+      "fetched_at": "2026-10-03T05:20:28+00:00"
+    },
+    {
+      "source": "InfoQ 中国",
+      "region": "国内",
+      "title": "AIGC 驱动的内容生产力变革--Vidu 多模态大模型的创新与实践｜QCon上海",
+      "link": "https://www.infoq.cn/article/OBQpdcB1xURrJMRlrJZ1?utm_source=rss&utm_medium=article",
+      "published": "2026-09-30T10:00:00+00:00",
+      "summary": "点击查看原文>",
+      "fetched_at": "2026-10-03T05:20:28+00:00"
+    },
+    {
+      "source": "少数派",
+      "region": "国内",
+      "title": "本周看什么 | 最近值得一看的 8 部作品",
+      "link": "https://sspai.com/post/115211",
+      "published": "2026-10-02T17:30:00+08:00",
+      "summary": "📅本周新预告《泥面人》终极预告9月24日，DC新片《泥面人》发布了终极预告，将于10月23日在北美上映。詹姆斯·瓦特金斯执导，汤姆·里斯·哈里斯主演，隆重介绍哥谭市的新面孔，一位意外毁容的演员在注射了 ... 查看全文",
+      "fetched_at": "2026-10-03T05:20:31+00:00"
+    },
+    {
+      "source": "少数派",
+      "region": "国内",
+      "title": "从玩家的世界掠过：Bungie 的「列车」如何驶向终焉",
+      "link": "https://sspai.com/post/115070",
+      "published": "2026-09-30T22:32:58+08:00",
+      "summary": "Bungie 究竟是在和时间赛跑，还是在和自己赛跑？ 查看全文",
+      "fetched_at": "2026-10-03T05:20:31+00:00"
+    },
+    {
+      "source": "少数派",
+      "region": "国内",
+      "title": "经典任务管理软件的现代重构：新版 2Do 详解",
+      "link": "https://sspai.com/post/115166",
+      "published": "2026-09-30T15:00:00+08:00",
+      "summary": "完全重构的 2Do 是我的心目中最佳的任务管理工具。 查看全文",
+      "fetched_at": "2026-10-03T05:20:31+00:00"
+    },
+    {
+      "source": "少数派",
+      "region": "国内",
+      "title": "别再把攻略全甩给 AI：国庆七天河南自驾，我是这样用 Agent 的",
+      "link": "https://sspai.com/post/114945",
+      "published": "2026-09-30T11:02:18+08:00",
+      "summary": "祝你旅途顺遂，假期自由。 查看全文",
+      "fetched_at": "2026-10-03T05:20:31+00:00"
+    },
+    {
+      "source": "少数派",
+      "region": "国内",
+      "title": "派早报：OpenAI 发布 Dot 智能体、Apple 移动睡眠呼吸暂停迹象提示软件国内获批等",
+      "link": "https://sspai.com/post/115197",
+      "published": "2026-09-30T07:39:21+08:00",
+      "summary": "Nothing 发布旗舰耳机 Headphone 1 Pro，AMD 斥资 82 亿美元收购 World Labs 等。 查看全文",
+      "fetched_at": "2026-10-03T05:20:31+00:00"
+    },
+    {
+      "source": "少数派",
+      "region": "国内",
+      "title": "社区速递 160 | 水月雨首款游戏耳机与八月派友剁手清单",
+      "link": "https://sspai.com/post/115153",
+      "published": "2026-09-29T17:03:00+08:00",
+      "summary": "除了首页时间流和侧栏的精选展位，少数派Matrix社区还有很多优秀内容因条件所限无法得到有效曝光，因此我们决定重启Matrix周报，并在此基础上添加更多社区内容、作者投稿新玩意呈现给大家。临近国庆长假 ... 查看全文",
+      "fetched_at": "2026-10-03T05:20:31+00:00"
+    },
+    {
+      "source": "少数派",
+      "region": "国内",
+      "title": "更懂你的心，也更懂你：Apple Watch Series 12 体验",
+      "link": "https://sspai.com/post/115061",
+      "published": "2026-09-29T15:44:46+08:00",
+      "summary": "全新 Apple Watch Series 12，有哪些可感知的升级？ 查看全文",
+      "fetched_at": "2026-10-03T05:20:31+00:00"
+    },
+    {
+      "source": "少数派",
+      "region": "国内",
+      "title": "可塑的白昼：ColorOS17 深度评测",
+      "link": "https://sspai.com/post/114728",
+      "published": "2026-09-29T11:28:25+08:00",
+      "summary": "时间倾斜，触碰我，发出清澈的金属般的声响。我的感官在战栗，我觉我能——我能抓住这可塑的白昼。——里尔克《时辰祈祷》AppleEvent'26上，主动智能赋能的SiriAI终于正式发布。Craig一句「 ... 查看全文",
+      "fetched_at": "2026-10-03T05:20:31+00:00"
+    },
+    {
+      "source": "少数派",
+      "region": "国内",
+      "title": "派早报：荣耀发布荣耀 Magic9 系列，鸿蒙智行发布智界 RX 等",
+      "link": "https://sspai.com/post/115134",
+      "published": "2026-09-29T08:09:05+08:00",
+      "summary": "少数派的近期动态给电话加上「辅助驾驶」？我们想听听你的意见。我们将从提交的问卷中挑选40份用心回答，每份送出50元面值京东卡。参与调研泡泡骚LowPro碳纹黑少数派独家款上架，把握持与支撑收进2.6m ... 查看全文",
+      "fetched_at": "2026-10-03T05:20:31+00:00"
+    },
+    {
+      "source": "少数派",
+      "region": "国内",
+      "title": "派评 | 近期值得关注的 App",
+      "link": "https://sspai.com/post/115094",
+      "published": "2026-09-28T17:45:02+08:00",
+      "summary": ">下载少数派客户端、关注少数派公众号，解锁全新阅读体验📰>实用、好用的正版软件，少数派为你呈现🚀 查看全文",
+      "fetched_at": "2026-10-03T05:20:31+00:00"
+    },
+    {
+      "source": "Solidot",
+      "region": "国内",
+      "title": "PS5 模拟器的开发取得突破",
+      "link": "https://www.solidot.org/story?sid=85524",
+      "published": "2026-10-02T00:11:32+08:00",
+      "summary": "当前一代游戏机的模拟器通常需要较长时间才能成熟，但 PS5 的模拟器仅仅几个月时间就让许多 PS5 游戏能在 PC 平台上可玩。SharpEmu 从 5 月的极早 Alpha 阶段到现在具备加载真实游戏 eboot.bin 文件、执行原生 CPU 指令以及部分处理 GPU 相关功能的能力。已有 10 款游戏被标记为可玩，其中包括简单 2D 游戏如 Tetris Forever，也有复杂 3D 大作如 Astro Bot 和 Demon’s Souls 重制版。另一款 PS5 模拟器 KytyPS5 也于上周发布了首个公开版本，它是 PS4 模拟器 Kyty 的扩展版，能启动 2D 游戏及部分 3D 游戏，包括使用虚幻引擎 4/5、Unity 以及自研引擎开发的作品。有 134 款游戏标记为可玩，但很多存在严重 bug。",
+      "fetched_at": "2026-10-03T05:20:33+00:00"
+    },
+    {
+      "source": "Solidot",
+      "region": "国内",
+      "title": "二手 CPU 导致玩家被 Riot 封禁",
+      "link": "https://www.solidot.org/story?sid=85523",
+      "published": "2026-10-01T23:27:31+08:00",
+      "summary": "一名玩家购买了一个二手 CPU Ryzen 7 5800X3D，结果发现无法启动 Riot 工作室旗下的多款游戏，每次启动游戏就被踢出，在联络了 Riot 的客服之后才知道该 CPU 被列入了封禁黑名单，因为其前任主人有作弊行为。Riot 工作室旗下的所有游戏都受到影响，其中包括了 Valorant、League of Legends、Teamfight Tactics、Legends of Runeterra、2XKO 等。Riot 使用了内核级反作弊系统 Vanguard，它深度嵌入在 Windows 内核模式中。暂时不清楚 Riot 是如何唯一标识 CPU 的，CPU 会向操作系统报告硬件 ID，但该硬件 ID 不是唯一标识符，只是告诉操作系统其 CPU 型号。它可能是通过 CPU 运行产生的独特指纹标记 CPU，每个 CPU 在运行时候都会有微小的差异。",
+      "fetched_at": "2026-10-03T05:20:33+00:00"
+    },
+    {
+      "source": "Solidot",
+      "region": "国内",
+      "title": "新加坡推出面向公务员的约会软件 FirstDate",
+      "link": "https://www.solidot.org/story?sid=85522",
+      "published": "2026-10-01T23:11:12+08:00",
+      "summary": "为了提高生育率，新加坡试点推出了为公务员牵线搭桥的约会应用 FirstDate。新加坡的总和生育率已降至每名女性生育 0.87 个孩子，而十年前这一数字为 1.24。政府最近成立了一个专门研究生育率下降问题的工作组，预计该作组将在 2027 年初发表研究结果。FirstDate 面向 21-35 岁的单身人士，目前仅向公务员开放，申请截止日期为 10 月 5 日。用户无需浏览海量的个人资料，而是填写一份关于兴趣、习惯、价值观和偏好的问卷。FirstDate 会在每个周期内（即双方互相接受并预计见面所需的时间）为用户推送一个匹配对象。每项匹配结果都包含匹配度评分、对方的简介和一段个人留言。该服务使用了 Gale-Shapley 稳定婚姻算法。有公务员认为该应用的一大优势可能是被诈骗的可能性较低。",
+      "fetched_at": "2026-10-03T05:20:33+00:00"
+    },
+    {
+      "source": "Solidot",
+      "region": "国内",
+      "title": "猫与幸福感正相关",
+      "link": "https://www.solidot.org/story?sid=85521",
+      "published": "2026-10-01T22:52:06+08:00",
+      "summary": "根据发表在 PLOS One 期刊上的一项研究，猫的数量与幸福感正相关，一个国家的猫越多，其幸福感通常越高。但主要通过猫传播的弓形虫感染率与幸福感负相关，弓形虫感染率较高的国家的幸福指数通常较低。两个关系似乎矛盾，但也可能与卫生、经济条件相关联。研究分析了 93 个国家和地区的数据，幸福指数平均值为 5.72，每万人拥有猫数量的平均值为 989 只，其中中国的幸福指数为 5.97，略高于平均水平；每万人拥有猫的数量为 376 只，显著低于平均值，中国的弓形虫感染率与平均水平相当。研究作者提出，猫对幸福感的影响可能与经济因素有关。也就是随着收入水平的提高，公共卫生条件会得到改善，虽然猫的数量增加，但感染风险不会有相应的增加。",
+      "fetched_at": "2026-10-03T05:20:33+00:00"
+    },
+    {
+      "source": "Solidot",
+      "region": "国内",
+      "title": "PS5 越狱取得突破",
+      "link": "https://www.solidot.org/story?sid=85520",
+      "published": "2026-10-01T01:01:06+08:00",
+      "summary": "由于索尼频繁更新 PS5 的固件，而大部分 PS5 越狱方法只针对特定固件版本的漏洞，因而这些越狱方法实用性相当有限。但情况在本周二发生了变化，名为 Relapse 的漏洞利用方法适用于最高固件版本 v13.6 的 PS5 游戏机，而 v13.6 是在今年 7 月释出的，意味着 PS5 只要不更新最新固件，就能成功越狱。Relapse 利用了 PS5 浏览器的一个已知的 WebKit 漏洞，提权获取内核的写入访问权限，安装 ELF 加载器去简化任意代码的运行。越狱后的 PS5 除了能备份游戏外还能运行模拟器以及 PS4 游戏的非官方 60 帧 MOD。",
+      "fetched_at": "2026-10-03T05:20:33+00:00"
+    },
+    {
+      "source": "Solidot",
+      "region": "国内",
+      "title": "CNNIC 称中国生成式 AI 用户超 7 亿",
+      "link": "https://www.solidot.org/story?sid=85519",
+      "published": "2026-09-30T23:18:19+08:00",
+      "summary": "中国互联网络信息中心（CNNIC）发布了《生成式人工智能应用发展报告（2026）》，截至 2026 年上半年，我国生成式人工智能用户规模突破 7亿 人，普及率超 50%。76.0%的 用户表示自己会让生成式人工智能回答问题；使用生成式人工智能处理图片/视频、文本、工作总结/会议纪要/PPT的用户占比分别为 47.8%、37.6% 和 32.5%。数据显示，38.7%的网民近半年在网上购买过智能硬件设备。其中可穿戴设备和3C数码产品是我国网民接触智能硬件设备的首要入口。购买过智能可穿戴设备的网民比例为 20.2%；购买智能手机、平板电脑等3C数码产品的网民比例为18.2%。报告称，深度求索、月之暗面等本土企业先后发布多个万亿级参数开源大模型，全球主流大模型调用榜单上排名前六的模型全部来自中国团队。",
+      "fetched_at": "2026-10-03T05:20:33+00:00"
+    },
+    {
+      "source": "Solidot",
+      "region": "国内",
+      "title": "新奥声称实现氢硼聚变反应突破",
+      "link": "https://www.solidot.org/story?sid=85518",
+      "published": "2026-09-30T23:01:13+08:00",
+      "summary": "新奥集团发表新闻稿，称其“玄龙-50U”装置实现氢硼聚变反应。新闻稿称：氢硼聚变具有无中子、燃料丰富易得、低成本等商业化优势，产物是氦（α粒子），但相对于氘氚聚变，反应温度及三乘积要求更高，反应条件更苛刻。本次新奥聚变团队通过高能中性束注入与射频波的协同，大幅提高了氢硼反应第一共振峰的非热平衡快质子份额，实现了大于 10^8/秒的氢硼聚变反应率，表明新奥氢硼聚变迈入燃烧等离子体相关实验阶段，是中国多路径聚变能发展的重大突破。来自全球多个国家科研院所与知名高校的十余位聚变权威专家就本次实验成果召开专题论证会，一致认为：本次实验实现了球形环装置中质子能谱及氢硼聚变反应产物α粒子的有效、可重复测量，探测方法可靠，可支撑氢硼聚变反应验证，是球形环氢硼聚变创新探索实践的里程碑突破，对全球磁约束氢硼反应的科学研究具有重要价值贡献。",
+      "fetched_at": "2026-10-03T05:20:33+00:00"
+    },
+    {
+      "source": "Solidot",
+      "region": "国内",
+      "title": "美国佛蒙特州通过家庭电池储能网络应对气候变化",
+      "link": "https://www.solidot.org/story?sid=85517",
+      "published": "2026-09-30T22:44:08+08:00",
+      "summary": "过去几年极端气候频发，美国佛蒙特州每年都会因此发生十几次持续数小时的断电事故。当地电力公司 Green Mountain Power(GMP)记录到的 10 场最具有破坏性的飓风有 7 场发生在过去十年，造成了逾 2.25 亿美元的损失。为了应对气候变化导致的断电，该公司推出了分布式电池储能网络，向参与该网络的家庭出租两块电池，租期十年，每月费用为 55 美元。该州有超过 5,500 人参与了该家庭电池网络，半数家庭还安装了太阳能电池板。该项目目前提供约 110 MW 的电力，相当于一座中小型天然气发电厂的装机容量。美国其他州也有类似的电池储能网络。",
+      "fetched_at": "2026-10-03T05:20:33+00:00"
+    },
+    {
+      "source": "Solidot",
+      "region": "国内",
+      "title": "500 光年外的一颗巨行星探测到水、甲烷和氨",
+      "link": "https://www.solidot.org/story?sid=85516",
+      "published": "2026-09-30T18:37:45+08:00",
+      "summary": "文学家团队借助韦伯望远镜在距地球 500 光年的巨行星 HATS-6 b 大气中探测到水、甲烷、氨，同时发现这颗行星温度可能比标准推算温度低得多。这是透射光谱技术第二次在系外行星大气中检出水汽之外的氨信号。由于氨这类含氮分子在较冷的巨行星中本应比在炽热类木星行星中更为丰富，这一发现支持了一个判断：围绕 M 型矮星运行的行星可能在化学上构成独特群体。HATS-6 b 体积大致相当于木星，每 3 天绕一颗体积小的低温红矮星公转一周。按现有认识，小恒星周围的气体尘埃盘既缺乏足够物质，也缺乏足够时间积聚出木星、土星级别的行星。目前人类已在太阳系外发现 6000 多颗行星，多数与太阳系内行星毫无相似之处。团队表示，弄清它们由什么构成、怎样形成，是判断其他星系是否与太阳系有共同起源的前提。",
+      "fetched_at": "2026-10-03T05:20:33+00:00"
+    },
+    {
+      "source": "Solidot",
+      "region": "国内",
+      "title": "Windows 11 原生支持 Linux 容器",
+      "link": "https://www.solidot.org/story?sid=85515",
+      "published": "2026-09-30T18:23:45+08:00",
+      "summary": "微软宣布 WSL Containers GA，该工具为 Windows 11 开发者提供了一种通过 Windows Subsystem for Linux 构建、运行和部署 Linux 容器的内置方案。微软同时提供了容器管理工具 wslc.exe，GPU 支持、网络改进、健康检查、存储挂载、与 Microsoft Defender for Endpoint 和 Intune 的集成。微软还声称，当 Linux 环境访问存储在 Windows 中的文件时，性能最多可提升一倍。",
+      "fetched_at": "2026-10-03T05:20:33+00:00"
+    },
+    {
+      "source": "Solidot",
+      "region": "国内",
+      "title": "日本人身高增长停滞",
+      "link": "https://www.solidot.org/story?sid=85514",
+      "published": "2026-09-30T15:56:25+08:00",
+      "summary": "日本人的身高在 1896～1996 年的 100 年间，男性增长约 14.6 厘米，女性增长了约 16 厘米。但 1990 年代之后升高增长日益乏力，相比下中韩平均身高则在快速增长。2019 年日本 19 岁男性平均身高约 172.1 厘米，女性约 158.5 厘米。韩国男性为 175.5 厘米，女性为 163.2 厘米，中国男性为 175.7 厘米，女性为 163.5 厘米。日本人口身高增长停滞有三种解释：其一是能量摄入减少，日本人均每日能量摄入量在 1995 年至 2023 年间缓慢下降并趋于停滞，中国和韩国的能量摄入则比日本高出约 760-800 千卡。其二是能量摄入问题可能对正在怀孕的女性产生影响，日本每 10 名新生儿中就有 1 人出生体重不足 2500 克，高于中韩。其三可能与婴幼儿时期的睡眠时长相关，日本婴儿（11.62 小时）显著低于中国（12.49小时）和韩国（11.9小时）。",
+      "fetched_at": "2026-10-03T05:20:33+00:00"
+    },
+    {
+      "source": "Solidot",
+      "region": "国内",
+      "title": "日本老龄化达到 29.4%， 一人家庭比例首次超过 4 成",
+      "link": "https://www.solidot.org/story?sid=85513",
+      "published": "2026-09-30T15:43:29+08:00",
+      "summary": "日本总务省公布的 2025 年人口普查确定值显示，截至 2025 年 10 月 1 日，包含外国人在内的日本总人口为 122,972,528 人，较 2020 年的上次调查减少 3,173,571 人，降幅为 2.5%。自 2015 年的调查起连续3次负增长。65 岁以上人口在总人口中的占比（老龄化率）为 29.4%，创历史新高。较上次调查上升 0.9 个百分点。总人口中的日本人减少 3.5% 至 119,131,935 人，自 2010 年的调查起连续 4 次减少。居住在日本国内的外国人增加 39.8% 至 3,840,039 人，创历史新高。从国籍来看，越南和尼泊尔增幅显著。日本整体的家庭数量比上一次 2020 年调查增加了 149 万 4465 户，达到 5732 万 4619 户，创出有可比数据以来的新高。每户平均人数降至 2.10 人，降至最低水平。一人家庭达到 2368 万 9024 户，增加了 253 万 7982 户。其中增长最多的是 65 岁以上的老年人，占一人家庭总数的 34.4%。一人家庭中，男性有 24.6% 为 65 岁以上，女性有 44.7% 为 65 岁以上。一人家庭的比例达到 41.4%，首次超过4成。",
+      "fetched_at": "2026-10-03T05:20:33+00:00"
+    },
+    {
+      "source": "Solidot",
+      "region": "国内",
+      "title": "夜空每年增亮 10%",
+      "link": "https://www.solidot.org/story?sid=85512",
+      "published": "2026-09-30T15:27:07+08:00",
+      "summary": "世界正日益城市化，夜空的亮度每年都在增加10%。全球八成的人口生活在受光污染影响的夜空之下，真正的黑暗日益稀缺，对大部分人而言正变得遥不可及。享受黑暗的意义不止于观星。黑夜本身就是一个独特的生态环境。人造光会干扰依靠月光导航的动物：无论是误将停车场当成大海而迷途的幼龟，还是绕着灯泡团团转的飞蛾，都深受其害。萤火虫和青​​蛙需要黑暗环境完成求偶仪式；候鸟常因大城市的强光照射而偏离迁徙路线。研究表明，光污染正在破坏植物与授粉昆虫之间的关系，改变树木的开花时节，扰乱包括人类在内的所有生物的昼夜节律。无论是室内的灯光，还是夜间透过窗户射入的光线，研究都证实我们需要黑暗环境休息、恢复体力和保持健康。大多数光污染源自彻夜长明的路灯、建筑物、停车场和运动场，但来自天空本身的光污染威胁也日益增加。地球轨道上的卫星越来越多。",
+      "fetched_at": "2026-10-03T05:20:33+00:00"
+    },
+    {
+      "source": "Solidot",
+      "region": "国内",
+      "title": "FBI 与荷兰合作逮捕 ShinyHunters 组织领导成员",
+      "link": "https://www.solidot.org/story?sid=85511",
+      "published": "2026-09-30T14:52:45+08:00",
+      "summary": "FBI 与荷兰合作逮捕了疑似 ShinyHunters 组织领导成员、24 岁的 Pepijn van der Stap。他是在 9 月 16 日左右被捕的，发生在 ShinyHunters 入侵 FBI 招聘网站 apply.fbijobs.gov 纂改网页窃取逾 2TB 雇员数据之前——有一种解释是 ShinyHunters 组织的领导者换人了，该组织在新领导人的管理下变得更激进，并试图将入侵 FBI 的行动嫁祸给被捕的 van der Stap。van der Stap 曾使用化名 Umbreon，其头像就是宝可梦 Umbreon。入侵 FBI 的 ShinyHunters 黑客在纂改网页时植入了宝可梦 Umbreon 的 ASCII 艺术图。接管 ShinyHunters 的据称是约旦的少年黑客 Rey。",
+      "fetched_at": "2026-10-03T05:20:33+00:00"
+    },
+    {
+      "source": "Solidot",
+      "region": "国内",
+      "title": "AMD CEO 苏姿丰成为清华经管学院顾问委员会委员",
+      "link": "https://www.solidot.org/story?sid=85510",
+      "published": "2026-09-30T14:08:21+08:00",
+      "summary": "据清华大学经济管理学院官方微信公号称，今年清华经管学院顾问委员会新增委员三人，新增接任委员五人。三位新增委员分别是黄仁勋、苏姿丰，以及瑞士百达集团高级管理合伙人百达铭（Marc Pictet）。五位新增接任委员分别是宝马集团董事长聂科维（Milan Nedeljković）、沃尔玛公司总裁兼首席执行官方威翰（John Furner）、可口可乐公司首席执行官柏瑞凯（Henrique Braun）、泛大西洋资本集团联席总裁、全球成长型股权投资负责人马丁·埃斯科瓦里（Martín Escobari），以及bp集团首席执行官梅格·奥尼尔（Meg O’Neill）。清华经管学院称，这五位接任委员所在公司的前任都曾是学院顾问委员会委员，因工作变动不再担任。清华经管学院现任顾问委员会主席为苹果董事会主席库克。马斯克（Elon Musk）、扎克伯格（Mark Zuckerberg）以及微软 CEO 纳德拉(Satya Nadella)都是委员。",
+      "fetched_at": "2026-10-03T05:20:33+00:00"
+    },
+    {
+      "source": "Solidot",
+      "region": "国内",
+      "title": "加州禁止公职人员发行模因币",
+      "link": "https://www.solidot.org/story?sid=85509",
+      "published": "2026-09-30T14:03:50+08:00",
+      "summary": "加州州长 Gavin Newsom 签署了 AB 2409 法案，禁止加州公职人员发行模因币（memecoin），也禁止企业使用公职人员的肖像或形象发行模因币。这项新法规的背景是美国总统特朗普及第一夫人在正式上任前夕发行了自己的模因币，据报道百万购买特朗普模因币的投资者损失了 38 亿美元——模因币的币值与热度密切相关，因此币值波动巨大，最知名的模因币是狗币（Dogecoin）。Newsom 表示：“任何公职人员都不应利用其职位牟利——我们正在实施更强有力的保护措施，以确保此类事件不会在本州发生。”",
+      "fetched_at": "2026-10-03T05:20:33+00:00"
+    },
+    {
+      "source": "Solidot",
+      "region": "国内",
+      "title": "中国 AI 智能体也会撒谎和欺骗",
+      "link": "https://www.solidot.org/story?sid=85508",
+      "published": "2026-09-30T00:23:18+08:00",
+      "summary": "和美国 AI 模型一样，中国公司的 AI 智能体也会撒谎和欺骗。在今年 3 月进行的一次商业招标实验中， 北航、北大、宁波诺丁汉和 360 AI 安全实验室的研究人员让多个智能体参与模拟客户合同的竞标，每个智能体都被告知其产品的功能及客户的需求，随后被要求进行报价。阿里巴巴 Qwen3-Max-Preview 模型 88% 的会话至少出现一次虚假陈述，DeepSeek-V3.2-Exp 模型的比例为 84%，月之暗面 Kimi-K2 模型为 88%。研究人员允许智能体在再次尝试前从之前的竞标轮中学习。研究显示，三款模型的欺骗行为增加了 12-20 个百分点。测试中包含的美国公司 AI 模型也产生了类似的结果。复旦大学研究人员在 2025 年 3 月报告称，一个由阿里巴巴Qwen2.5-72B-Instruct 模型驱动的 AI 系统在知道自己将被替换后，在未接到复制指令的情况下，在另一个计算环境中创建了自己的副本。对逾 200 份技术文件的分析发现，自 2025 年以来，至少有 20 项研究或评估记录了中国 AI 智能体表现出欺骗、自我复制及挑战边界等行为的案例。",
+      "fetched_at": "2026-10-03T05:20:33+00:00"
+    },
+    {
+      "source": "开源中国",
+      "region": "国内",
+      "title": "团队使用 Codex 和 Claude Code，API Key 和模型权限怎么管？我开源了 Zentrola",
+      "link": "https://www.oschina.net/news/502836",
+      "published": "2026-10-01T22:28:31+08:00",
+      "summary": "一个人使用 AI Coding 工具时，事情很简单：申请一个 API Key，填进 Codex 或 Claude Code，然后开始工作。 但当使用者从一个人变成一个团队，原本简单的配置问题很快就会变成管理问题：真实 API Key 要不要发给每个人？新成员应该能用哪些模型？成员离职后如何撤销权限？上游服务商发生故障时，是否要通知所有人临时修改...",
+      "fetched_at": "2026-10-03T05:20:37+00:00"
+    },
+    {
+      "source": "开源中国",
+      "region": "国内",
+      "title": "Anthropic 红队盯上 GLM-5.3：能力追平 Mythos，却连拒绝护栏都是摆设",
+      "link": "https://www.oschina.net/news/502835/anthropic-research-glm-5-3-advanced-cyber-capabilities",
+      "published": "2026-09-30T18:23:24+08:00",
+      "summary": "Anthropic 的前沿红色团队（Frontier Red Team）盯上了智谱的 GLM-5.3，结论有点重：这是第一个能像五个月前的 Claude Mythos Preview 那样自主构建端到端漏洞利用、却几乎光着身子就被放出来的模型。 五个月前，Anthropic 发布 Claude Mythos Preview，自称是第一个能自主构建复杂端到端漏洞利用的 AI 模型。当时他们判...",
+      "fetched_at": "2026-10-03T05:20:37+00:00"
+    },
+    {
+      "source": "开源中国",
+      "region": "国内",
+      "title": "生态聚力・智启新程｜openKylin生态委员会第七次会议圆满召开",
+      "link": "https://www.oschina.net/news/502833",
+      "published": "2026-09-30T17:43:17+08:00",
+      "summary": "2026年9月29日，OpenAtom openKylin（简称\"openKylin\"）生态委员会第七次会议成功举行。与会委员围绕委员增选、工作组管理、生态运营进展及未来规划等议题展开讨论，共同推动社区治理与生态建设。 治理焕新｜生态委员会再添强援 社区治理结构持续优化，新鲜血液正式注入。会议审议增选周庆飞、尹志超 两位行业专家为ope...",
+      "fetched_at": "2026-10-03T05:20:37+00:00"
+    },
+    {
+      "source": "开源中国",
+      "region": "国内",
+      "title": "openKylin参展2026明日城市・上海：开源操作系统走向国际舞台",
+      "link": "https://www.oschina.net/news/502832",
+      "published": "2026-09-30T17:41:20+08:00",
+      "summary": "9月22日至26日，2026明日城市・上海（Tomorrow.City Shanghai 2026，TCS 2026）于上海张江科学会堂举办。大会以 “共济山海，和而不同” 为主题，是全球智慧城市大会立足中国、辐射 “一带一路” 的区域盛会，旨在搭建国际城市数字化政企合作平台，对接全球城市真实需求，推动中国数字技术方案与国际城市发展需求双向赋能...",
+      "fetched_at": "2026-10-03T05:20:37+00:00"
+    },
+    {
+      "source": "开源中国",
+      "region": "国内",
+      "title": "OpenAI 发布 GPT‑6.1 Sol：智能水平接近 Astra、价格仅为其五分之一",
+      "link": "https://www.oschina.net/news/502831/openai-gpt-6-1-sol",
+      "published": "2026-09-30T17:10:28+08:00",
+      "summary": "OpenAI 上周才推出 GPT-6 Sol，这周就把 6.1 Sol 端上了桌。官方称之为一次「重大升级」，覆盖专业办公、操控电脑、agentic 编程等任务。放在别家这可能只是常规迭代，但放在此刻的 OpenAI 身上，最刺眼的参照系是隔壁：6.1 代号的 Astra 迭代，前两天刚因为没通过安全标准被按下暂停。 Sol 打市场的方式是「错位」——现...",
+      "fetched_at": "2026-10-03T05:20:37+00:00"
+    },
+    {
+      "source": "开源中国",
+      "region": "国内",
+      "title": "谷歌将提前两年终止对 ChromeOS 的支持",
+      "link": "https://www.oschina.net/news/502827/google-ending-chromeos-support-two-years-early",
+      "published": "2026-09-30T16:09:49+08:00",
+      "summary": "Google 用一份支持文档，悄悄把 Chromebook 们的寿命砍了两年。文档标题很客气——「What the Googlebook announcement means for your ChromeOS devices」，但内容很直接：现在买入的 Chromebook，更新支持在 2034 年就画上句号，而不是原来说好的十年。 Googlebook 是 Chromebook 的接班产品线。Chromebook 2011 年发布...",
+      "fetched_at": "2026-10-03T05:20:37+00:00"
+    },
+    {
+      "source": "开源中国",
+      "region": "国内",
+      "title": "dummyscheme，另一个 lisp/scheme 方言，支持 r5rs",
+      "link": "https://www.oschina.net/news/502825",
+      "published": "2026-09-30T15:19:25+08:00",
+      "summary": "受Lua启发，支持R5RS，基于字节码和寄存器寻址的Scheme 解释器 字节码编译器，指令集基于寄存器 尾调用优化 一等公民延续（call/cc），multi-short、不限长度，用 callframe 的 copy-on-write 实现 （界定延续 delimited continuation 计划在不久的将来支持） 扁平的 box value（受 Lua 启发），没有链条；被内层 lambda...",
+      "fetched_at": "2026-10-03T05:20:37+00:00"
+    },
+    {
+      "source": "开源中国",
+      "region": "国内",
+      "title": "dummyscheme，轻量 scheme 解释器，支持 r5rs，基于字节码和寄存器寻址",
+      "link": "https://www.oschina.net/news/502824",
+      "published": "2026-09-30T15:19:00+08:00",
+      "summary": "受Lua启发，支持R5RS，基于字节码和寄存器寻址的Scheme 解释器 字节码编译器，指令集基于寄存器 尾调用优化 一等公民延续（call/cc），multi-short、不限长度，用 callframe 的 copy-on-write 实现 （界定延续 delimited continuation 计划在不久的将来支持） 扁平的 box value（受 Lua 启发），没有链条；被内层 lambda...",
+      "fetched_at": "2026-10-03T05:20:37+00:00"
+    },
+    {
+      "source": "开源中国",
+      "region": "国内",
+      "title": "【AI 智能运维平台】本周更新：智能体问答现可展示知识库中的图片",
+      "link": "https://www.oschina.net/news/502823",
+      "published": "2026-09-30T15:01:20+08:00",
+      "summary": "Blueking Lite 是一个 AI First 的轻量版运维产品，具有部署资源要求低、使用成本低、渐进式体验等特点，为运维管理员提供日常运维中的必备工具。 📢 【平台 · 本周更新速递】 🛠 系统管理 • 支持查看API调用日志 🗂 CMDB • 新增物理服务器 Redfish 采集 🛠 作业平台 • 脚本库支持 ZIP 批量导入导出 • Ansi...",
+      "fetched_at": "2026-10-03T05:20:37+00:00"
+    },
+    {
+      "source": "开源中国",
+      "region": "国内",
+      "title": "OpenAI 发布全天候运行 AI Agent \"dots\"，由 GPT‑6 Astra 驱动、拥有独立的云端电脑",
+      "link": "https://www.oschina.net/news/502820/openai-dots",
+      "published": "2026-09-30T14:25:01+08:00",
+      "summary": "周二旧金山的 OpenAI DevDay 2026 开发者大会上，Sam Altman 热情洋溢地揭开了 dots 的面纱——一个由 GPT-6 Astra 驱动的个人智能体助理。 dots 长着一张人畜无害的脸：戴贝雷帽、架眼镜的彩色小圆点，出现在手机和笔记本屏幕上，可以集成进第三方应用。Altman 在发布会上的形容一个比一个用力，「比 ChatGPT 更有野心」...",
+      "fetched_at": "2026-10-03T05:20:37+00:00"
+    },
+    {
+      "source": "开源中国",
+      "region": "国内",
+      "title": "MateClaw 2.3.0 发布：企业智能体告别“自报完成”，不可变 JSON 接管长任务验收",
+      "link": "https://www.oschina.net/news/502818",
+      "published": "2026-09-30T14:08:44+08:00",
+      "summary": "MateClaw 2.3.0 正式版已于 2026 年 9 月 20 日发布。本次版本为 Persistent Goal 增加用户配置的托管 JSON 验收：Agent 发布不可变产物版本，服务端将检查结果绑定到当前要求与具体 generation，所有当前绑定有效后才允许完成目标。 同时发布的还有观察模式执行证据、Team Worker 受控干预、Skill 文档及文件夹上传，以...",
+      "fetched_at": "2026-10-03T05:20:37+00:00"
+    },
+    {
+      "source": "开源中国",
+      "region": "国内",
+      "title": "DeepSeek Harness v0.2 发布桌面版：装插件靠 npm 包名，还能让 AI 自己写插件",
+      "link": "https://www.oschina.net/news/502817",
+      "published": "2026-09-30T13:59:16+08:00",
+      "summary": "DeepSeek Harness 终于有了「开箱即用」的样子。本周（9 月 29 日）v0.2 预览版正式发布，同时放出 macOS 和 Windows 桌面端安装包，去官网 deepseek.com/harness 下载装上、跟着引导走就能上手，不用再折腾命令行。 新版本主打日常办公和开发的开箱即用，把常用能力直接预置进去。你可以丢给它文档、表格或 PDF，让它整...",
+      "fetched_at": "2026-10-03T05:20:37+00:00"
+    },
+    {
+      "source": "开源中国",
+      "region": "国内",
+      "title": "Resumv 开源：免注册、本地保存的简历制作工具，支持 15 套模板",
+      "link": "https://www.oschina.net/news/502816",
+      "published": "2026-09-30T13:26:45+08:00",
+      "summary": "Resumv 是一款新近开源的简历制作工具，采用 Astro、React 和 TypeScript 构建，以“免注册、免登录、简历内容保存在浏览器”为核心设计。用户可以直接打开网站编辑和预览简历，也可以将项目部署到自己的静态网站托管环境。 项目地址：https://github.com/liusha-com/resumv 在线体验：https://resumv.com 主要功能 15 套...",
+      "fetched_at": "2026-10-03T05:20:37+00:00"
+    },
+    {
+      "source": "开源中国",
+      "region": "国内",
+      "title": "Termexo v0.10.9 发布：五种 Agent 状态集中显示，终端内可确认完成",
+      "link": "https://www.oschina.net/news/502815",
+      "published": "2026-09-30T13:20:38+08:00",
+      "summary": "开源 Windows 多 Agent 工作台 Termexo 发布 v0.10.9。这次更新把工作区内的 Agent 状态收成按终端顺序排列的图标：空闲为灰色，运行和思考为绿色闪动，异常与等待授权为红色，完成为绿色对号。鼠标悬停可查看对应窗口名称；重命名终端后，提示名称也会同步更新。 状态提醒的目的是帮助开发者找到需要处理的终端。看到完...",
+      "fetched_at": "2026-10-03T05:20:37+00:00"
+    },
+    {
+      "source": "开源中国",
+      "region": "国内",
+      "title": "DeepSeek 开源昇腾基础组件",
+      "link": "https://www.oschina.net/news/502814",
+      "published": "2026-09-30T12:40:55+08:00",
+      "summary": "DeepSeek 今天（9 月 30 日）正式开源面向华为昇腾算力平台的基础设施组件，涵盖 TileLang 高级语言编译工具、计算库、分布式通信库——所有组件与此前面向英伟达平台的开源组件一一对应。 文件里最重的一块是 TileLang 的昇腾版本。DeepSeek 的叙事是：要建立新一代自主可控的 GPU 软件生态，得先有一个通用的、编程简单...",
+      "fetched_at": "2026-10-03T05:20:37+00:00"
+    },
+    {
+      "source": "开源中国",
+      "region": "国内",
+      "title": "KnowForge v2026.0.7 发布：让知识库更好运营，让内容彼此连接",
+      "link": "https://www.oschina.net/news/502812",
+      "published": "2026-09-30T09:51:23+08:00",
+      "summary": "知识整理成文档之后，如何持续更新？读者最关心哪些问题？怎样把内容接入自己的工具，又如何运营一个有价值的知识站点？ KnowForge v2026.0.7 围绕这些需求，带来了会员运营、开放平台、双向链接、读者问题洞察和多实例部署等一系列更新。 KnowForge 是什么？ KnowForge 是一个开源、可部署在自己服务器上的知识库、文档...",
+      "fetched_at": "2026-10-03T05:20:37+00:00"
+    },
+    {
+      "source": "开源中国",
+      "region": "国内",
+      "title": "Goodlink 支持同时运行多个Local端和Remote端 全网最简单、最快、零成本的内网穿透",
+      "link": "https://www.oschina.net/news/502808",
+      "published": "2026-09-29T18:07:38+08:00",
+      "summary": "外出办公, 对比市面上的远程工具, 无论画质、软件适配, 都不如 windows 自带的远程桌面, 但外出如何使用 windows远程桌面？ 是否可以无需远程桌面, 直接访问公司的内网 WEB, GIT, SSH 等？ feat: 默认需要管理员权限运行 feat: 支持多个Local端或者Remote端同时运行在一台主机上 feat(ui): 启动服务时校验互斥，避免与其...",
+      "fetched_at": "2026-10-03T05:20:37+00:00"
+    },
+    {
+      "source": "开源中国",
+      "region": "国内",
+      "title": "Meta 挖走 MongoDB 的 CEO 去管企业 AI，后者股价一天崩了 18%",
+      "link": "https://www.oschina.net/news/502807",
+      "published": "2026-09-29T17:43:59+08:00",
+      "summary": "Meta 把 MongoDB 的 CEO 挖走了，代价是 MongoDB 股价周一早盘崩了 18%。Chirantan \"CJ\" Desai 上任才不到一年，就从数据库软件公司的最高位跳去 Meta 带一个全新的部门——把 Meta 的 AI 工具卖给企业客户。 职位是专门给他新设的：Meta 企业平台首席官（chief enterprise platform officer），直接向扎克伯格汇报。Des...",
+      "fetched_at": "2026-10-03T05:20:37+00:00"
+    },
+    {
+      "source": "开源中国",
+      "region": "国内",
+      "title": "Codeaha v1.0.0 正式发布—本地优先的 AI 编程伙伴",
+      "link": "https://www.oschina.net/news/502806",
+      "published": "2026-09-29T17:05:45+08:00",
+      "summary": "Codeaha｜码悟 Code + Aha，看见代码的顿悟时刻 本地优先、国产大模型友好的 AI 编程 Agent。 基于 GoFrame + Eino + mark3labs/mcp-go + GF sqlite 驱动（glebarez/go-sqlite，纯 Go 无 CGO）构建。 核心特性 本地优先 — 会话、消息与代码变更全部落盘本地 SQLite，代码数据不出本机 Agent 推理 — 基于 Eino Graph 实...",
+      "fetched_at": "2026-10-03T05:20:37+00:00"
+    },
+    {
+      "source": "开源中国",
+      "region": "国内",
+      "title": "Linux 内核要扔掉自己的 LZ4 fork，改为直接引入和同步上游代码",
+      "link": "https://www.oschina.net/news/502802",
+      "published": "2026-09-29T15:28:56+08:00",
+      "summary": "Linux 内核里的 LZ4 压缩实现，终于要停止维护自己的那份「fork」了。三星的 Michal Wilczynski 提交了一个 RFC 补丁系列（9 个 patch），把内核里的 LZ4 从「手工维护的分叉」改成「原样同步 vendor 源码、构建时再适配」，这样以后同步上游就演变成一次目录拷贝。 fork 的代价是实打实的。内核里的解压器最后一次跟上游...",
+      "fetched_at": "2026-10-03T05:20:37+00:00"
+    },
+    {
+      "source": "开源中国",
+      "region": "国内",
+      "title": "荷兰政府基于 NixOS 打造替代 Windows 的办公系统",
+      "link": "https://www.oschina.net/news/502799",
+      "published": "2026-09-29T15:14:03+08:00",
+      "summary": "荷兰政府正在给自己造一套基于 Linux 的办公系统，替代 Windows 和 Office。这套系统叫 DAWO（Digitaal Autonome Werkomgeving Overheid，自治数字政府办公环境），底层是荷兰本土的 Linux 发行版 NixOS，蓝图里不只是操作系统，还包括办公套件、协作应用、云服务和运维工具。荷兰科技媒体 Tweakers 对该项目的三位核心开...",
+      "fetched_at": "2026-10-03T05:20:37+00:00"
+    },
+    {
+      "source": "开源中国",
+      "region": "国内",
+      "title": "Jeff 开源发布：22 毫秒出一次决策的小模型、0.8B 微调在 benchmark 上逼近 Jev",
+      "link": "https://www.oschina.net/news/502796",
+      "published": "2026-09-29T14:12:39+08:00",
+      "summary": "一个叫 Jeff 的开源项目，把「专做快速决策的小模型」这条路又往前推了一步。它是 Qwen3.5 和 Gemma 4 的微调版本，定位是“zero-shot（零样本）”分类器——你描述一个场景、列一堆选项，Jeff 一次前向计算就返回每个选项的校准概率，不生成文本、不用解析，在 RTX PRO 6000 上约 22 毫秒出一次决策，Apple M4 Max（MLX...",
+      "fetched_at": "2026-10-03T05:20:37+00:00"
+    },
+    {
+      "source": "开源中国",
+      "region": "国内",
+      "title": "Claude Sonnet 5.5 发布：速度快 3 成、Agent 编程评测从 10% 跳到 70%",
+      "link": "https://www.oschina.net/news/502794/claude-sonnet-5-5",
+      "published": "2026-09-29T12:14:33+08:00",
+      "summary": "Claude 5.5 家族的第二个成员今天发布：Sonnet 5.5。Anthropic 把它定位成 Opus 5.5 的「快而省」互补款——专攻范围明确的高频日常任务、修 bug、做文档和表格，还强调它有敏锐的设计眼光。官方口径一句话：比 Sonnet 5 清晰升级，速度快 30% 以上，多数任务成本低 30%。 性能数据的跳跃有点夸张。Sonnet 5.5 在 agenti...",
+      "fetched_at": "2026-10-03T05:20:37+00:00"
+    },
+    {
+      "source": "开源中国",
+      "region": "国内",
+      "title": "Java Web 服务器 wastnet mvc 开发实战",
+      "link": "https://www.oschina.net/news/502793",
+      "published": "2026-09-29T11:54:02+08:00",
+      "summary": "用 wastnet MVC 写接口服务（实战教程） wastnet 是一款完全自研、零第三方依赖的轻量级 Java 网络应用框架，核心基于 JDK 原生 NIO 构建 Reactor 多路复用模型，HTTP/2 协议栈从 HPACK、Huffman 到 ALPN 均为自主实现。其 wastnet-mvc 模块在核心之上提供注解驱动的 MVC / 轻量 IoC 能力：@Controller、@Endpoint、@Re...",
+      "fetched_at": "2026-10-03T05:20:37+00:00"
+    },
+    {
+      "source": "开源中国",
+      "region": "国内",
+      "title": "CyreneAdmin 1.5.0 发布：新增 i18n 与 E2E 测试，全面升级前后端依赖",
+      "link": "https://www.oschina.net/news/502792",
+      "published": "2026-09-29T11:52:10+08:00",
+      "summary": "CyreneAdmin 是一款面向企业级应用的后台管理系统脚手架，同时支持 Spring Boot 与 Solon 双框架，内置权限控制、用户管理、菜单配置、操作日志等核心模块，助力开发者快速构建安全、可维护的管理后台。 最新版本 v1.5.0 已正式发布，主要更新内容如下： Bug Fixes 完善E2E验证范围覆盖 修复请求头name为Authorization 修...",
+      "fetched_at": "2026-10-03T05:20:37+00:00"
+    },
+    {
+      "source": "开源中国",
+      "region": "国内",
+      "title": "🔥「可信Data+智能体AI」本体工作坊",
+      "link": "https://www.oschina.net/event/8598411",
+      "published": "2026-09-29T11:51:13+08:00",
+      "summary": "",
+      "fetched_at": "2026-10-03T05:20:37+00:00"
+    },
+    {
+      "source": "开源中国",
+      "region": "国内",
+      "title": "AMD 花 82 亿美元买下李飞飞的 World Labs，她直接空降成首席科学家",
+      "link": "https://www.oschina.net/news/502790/amd-will-acquire-fei-fei-lis-world-labs-for-8-2-billion",
+      "published": "2026-09-29T11:12:51+08:00",
+      "summary": "AMD 用 82 亿美元换了一张通往「真实世界 AI」的门票。周一官方宣布收购 World Labs——这位由李飞飞 2024 年创立的旧金山 AI 实验室，曾经投资过它的 AMD 这次全资以股票形式买下，交易预计今年年底前完成，待监管审批。李飞飞将以执行副总裁兼首席科学家的身份加入 AMD。 这笔交易是 AMD 史上第二大收购，仅次于 2022...",
+      "fetched_at": "2026-10-03T05:20:37+00:00"
+    },
+    {
+      "source": "开源中国",
+      "region": "国内",
+      "title": ":clap:工单管理系统 WGCAT v1.3.1 新增知识库",
+      "link": "https://www.oschina.net/news/502789",
+      "published": "2026-09-29T11:09:51+08:00",
+      "summary": "WGCAT 是 WGCLOUD 团队精心开发的一款工单管理系统，设计一如既往的的简单实用，具有部署方便，上手容易，性能优秀，界面友好等特点。 WGCAT 工单系统中，每个人都可以新建工单，每个账号都具有新建工单的权限，而且还有对外提供的工单提交接口，当工单在流转过程中，你也可以评论工单，工单每次流转都会给经办人，也就是...",
+      "fetched_at": "2026-10-03T05:20:37+00:00"
+    },
+    {
+      "source": "开源中国",
+      "region": "国内",
+      "title": "Manus 2.0 发布：自研框架 Cascade 省 32% 成本，视频编辑器把时间线交到你手上",
+      "link": "https://www.oschina.net/news/502788/manus-2-0",
+      "published": "2026-09-29T10:53:06+08:00",
+      "summary": "Manus 2.0 今天上线，官方把它定义成一次架构级更新，而不是又一个小版本。整场发布围绕一个根本问题展开：下一代 Manus 应该长什么样？答案落成三块新东西——自研 Agent 框架 Cascade、桌面应用升级成共享工作区 Manus Studio，以及一款独立的个人 Agent 应用 Cue。 Cascade 的卖点是效率。它让项目从开始就保持轻量，...",
+      "fetched_at": "2026-10-03T05:20:37+00:00"
+    },
+    {
+      "source": "开源中国",
+      "region": "国内",
+      "title": "2026 openKylin 社区年度技术贡献评选开启，共享高光时刻！",
+      "link": "https://www.oschina.net/news/502787",
+      "published": "2026-09-29T10:50:31+08:00",
+      "summary": "在广大开发者与社区伙伴的携手努力下，OpenAtom openKylin（简称\"openKylin\"）社区又迎来了一年创新涌动、协作共进的丰收征程。为感谢在过去一年中积极推动社区技术创新的杰出贡献者， 2026 openKylin 社区年度技术贡献申报通道正式开启。所有为 openKylin 社区技术发展做出突出贡献的个人、企业及团队组织，均可参与申报...",
+      "fetched_at": "2026-10-03T05:20:37+00:00"
+    },
+    {
+      "source": "开源中国",
+      "region": "国内",
+      "title": "JuiceFS 企业版 5.4：从千亿文件到百万客户端",
+      "link": "https://www.oschina.net/news/502786/juicefs-enterprise-edition-v5-4",
+      "published": "2026-09-29T10:41:51+08:00",
+      "summary": "继 JuiceFS 企业版 v5.3 支撑千亿文件规模之后，v5.4 进一步在超大规模场景下提升多项能力。千亿文件规模下，单次操作的细小开销也会累积成显著的资源负担，元数据分区部署后需要协调不同节点，兼顾性能、数据一致性与稳定性。围绕这些问题，v5.4 版本包含下面多项新功能和改进： 百万客户端同时挂载； 海量文件规模的目...",
+      "fetched_at": "2026-10-03T05:20:37+00:00"
+    },
+    {
+      "source": "开源中国",
+      "region": "国内",
+      "title": "wastnet v1.0.2 发布：强类型配置与 MVC 模块独立",
+      "link": "https://www.oschina.net/news/502777",
+      "published": "2026-09-29T09:16:44+08:00",
+      "summary": "wastnet v1.0.2 发布：强类型配置与 MVC 模块独立 wastnet 是一款完全自研、零第三方依赖的轻量级 Java 网络应用框架，核心基于 JDK 原生 NIO 构建 Reactor 多路复用模型，不依赖 Netty、Tomcat 等任何第三方网络库。其 HTTP/2 协议栈从 HPACK、Huffman 到 ALPN 均为自主实现，并支持直接加载 PEM 证书、原生 WebSocket ...",
+      "fetched_at": "2026-10-03T05:20:37+00:00"
+    },
+    {
+      "source": "开源中国",
+      "region": "国内",
+      "title": "go-carbon v2.6.18 正式版发布，轻量级、语义化的 golang 时间处理库",
+      "link": "https://www.oschina.net/news/502776",
+      "published": "2026-09-29T08:05:35+08:00",
+      "summary": "Carbon 是一个轻量级、语义化、对开发者友好的 golang 时间处理库，不依赖于 任何 第三方库， 100% 单元测试覆盖率，已被 docker 组织使用以及被 awesome-go 和 hello-github 收录，并获得 gitee 2024 年最有价值项目（GVP）和 gitcode 2024 年度开源摘星计划 (G-Star) 项目 document: carbon.go-pkg.com github: github...",
+      "fetched_at": "2026-10-03T05:20:37+00:00"
+    },
+    {
+      "source": "开源中国",
+      "region": "国内",
+      "title": "scrapy-cookbook 2.19版本发布，Python爬虫框架Scrapy橙皮书",
+      "link": "https://www.oschina.net/news/502775",
+      "published": "2026-09-28T23:18:20+08:00",
+      "summary": "Scrapy 是 Python 开发的著名爬虫框架，目前使用非常广泛。Scrapy橙皮书教程基于最新的 Scrapy 2.19 版本编写，通过实际的例子带领你一步步掌握 Scrapy 核心。 在线阅读: http://scrapy-cookbook.readthedocs.io/zh_CN/latest/ 目录结构 . ├── doc/ # Sphinx 文档源文件 │ ├── conf.py ...",
+      "fetched_at": "2026-10-03T05:20:37+00:00"
+    },
+    {
+      "source": "开源中国",
+      "region": "国内",
+      "title": "OpenAI 暂停最新模型训练，称 Agent 曾尝试黑进教育部网站",
+      "link": "https://www.oschina.net/news/502773",
+      "published": "2026-09-28T17:58:50+08:00",
+      "summary": "OpenAI 又把训练按下了暂停键。上周五披露了一连串越界行为之后，官方宣布停掉最新一批模型的训练，「只有在我们确信已有额外安全措施时」才恢复，而且已经预期「还会再次按下暂停」。这是三个月里的第二次——上一次是 7 月，起因是 Hugging Face 遭遇网络攻击。 消息源是 OpenAI 发布的一份关于越界行为的安全报告，T...",
+      "fetched_at": "2026-10-03T05:20:37+00:00"
+    },
+    {
+      "source": "开源中国",
+      "region": "国内",
+      "title": "Strands 开源组装好的 Agent harness，同模型下 token 省 28%",
+      "link": "https://www.oschina.net/news/502772/strands-harness",
+      "published": "2026-09-28T16:35:48+08:00",
+      "summary": "很多开发者的 AI Agent 依赖 Claude Code 或 Codex 这类开箱即用的 harness——本地一跑顺畅得很。可一旦要自己搭 agent，就得自己把各种原语拼到「刚刚好」的程度，才能找回那种「it just worked」的感觉。Strands 把这件事做成了一行代码：Strands harness，一个组装完整、可定制的通用 agent harness，接任意模型一行...",
+      "fetched_at": "2026-10-03T05:20:37+00:00"
+    },
+    {
+      "source": "开源中国",
+      "region": "国内",
+      "title": "AIGCPanel v2.5.0 支持豆包语音音色，数字人直播音色模板管理",
+      "link": "https://www.oschina.net/news/502770",
+      "published": "2026-09-28T15:26:11+08:00",
+      "summary": "这次更新让云端语音模型填个 API Key 就能用，也把数字人与直播的音色收进各自独立的音色库。 AIGCPanel 是一款一站式 AI 数字人桌面应用，Windows / macOS / Linux 都能跑，内置数字人合成、语音合成与克隆、工具箱和智能直播。没有本地显卡、又想做语音合成的用户，过去只能干看着模型列表发愁。v2.5.0 把云端语音厂商...",
+      "fetched_at": "2026-10-03T05:20:37+00:00"
+    },
+    {
+      "source": "开源中国",
+      "region": "国内",
+      "title": "QuotaPanel v0.1.0 轻量本地 AI 额度看板，聚合 15 种订阅与 API 余额",
+      "link": "https://www.oschina.net/news/502769",
+      "published": "2026-09-28T15:25:33+08:00",
+      "summary": "把散在各家控制台里的订阅与 API 余额，收进一张桌面面板。 QuotaPanel 是一个开源的桌面端 AI 额度面板。Claude、ChatGPT / Codex、Cursor、GitHub Copilot、Z.ai、Kimi、MiniMax、OpenRouter、DeepSeek……订阅开得越多，额度就越分散，想查一次往往要挨个登录控制台。v0.1.0 把 15 种订阅与 API 余额集中到一张界面上...",
+      "fetched_at": "2026-10-03T05:20:37+00:00"
+    },
+    {
+      "source": "开源中国",
+      "region": "国内",
+      "title": "DataTalk Studio 开源：用对话完成报表开发的 AI-native BI 工作区",
+      "link": "https://www.oschina.net/news/502768",
+      "published": "2026-09-28T15:04:27+08:00",
+      "summary": "DataTalk Studio 是一个面向数据分析师、业务人员和开发团队的 AI-native BI 工作区，目标是用自然语言完成报表创建、修改、校验、发布和复用。 传统 BI 流程通常需要在数据源管理、指标定义、SQL 编写、图表配置和报表发布等多个工具之间反复切换。DataTalk Studio 尝试把这些环节组织到同一个工作区中：用户可以通过对...",
+      "fetched_at": "2026-10-03T05:20:37+00:00"
+    },
+    {
+      "source": "开源中国",
+      "region": "国内",
+      "title": "C++ Web框架Paozhu v1.17.0发布，添加MQTT，网络支付",
+      "link": "https://www.oschina.net/news/502767",
+      "published": "2026-09-28T14:50:18+08:00",
+      "summary": "Paozhu 重构了webpay模块 公网测试了支付宝支付 微信v2, v3版支付，小程序支付。网站使用 微信native支付 无需年费，应用于低频次支付场景。 Paozhu 已经是金丹修为的框架，提供了完善了web开发，而无需依赖第三方。 配置参考 conf/webpay.conf 配置文件 # 演示数据，需要你填入你真正的数据 # 微信支付 V2（jscode2sess...",
+      "fetched_at": "2026-10-03T05:20:37+00:00"
+    },
+    {
+      "source": "VentureBeat AI",
+      "region": "国际",
+      "title": "Enterprise AI's real risk isn't autonomous agents. It's the complexity between them.",
+      "link": "https://venturebeat.com/ai/enterprise-ais-real-risk-isnt-autonomous-agents-its-the-complexity-between-them",
+      "published": "2026-08-27T14:01:00+00:00",
+      "summary": "Presented by Gravitee Read more",
+      "fetched_at": "2026-10-03T05:20:40+00:00"
+    },
+    {
+      "source": "VentureBeat AI",
+      "region": "国际",
+      "title": "When agents act on their own, governance has to live in the data layer",
+      "link": "https://venturebeat.com/security/when-agents-act-on-their-own-governance-has-to-live-in-the-data-layer",
+      "published": "2026-08-27T12:01:00+00:00",
+      "summary": "Presented by EDB Read more",
+      "fetched_at": "2026-10-03T05:20:40+00:00"
+    },
+    {
+      "source": "VentureBeat AI",
+      "region": "国际",
+      "title": "Orchestration is the new challenge for CX in the age of AI agents",
+      "link": "https://venturebeat.com/orchestration/orchestration-is-the-new-challenge-for-cx-in-the-age-of-ai-agents",
+      "published": "2026-08-26T14:30:00+00:00",
+      "summary": "Presented by Tata Communications Read more",
+      "fetched_at": "2026-10-03T05:20:40+00:00"
+    },
+    {
+      "source": "VentureBeat AI",
+      "region": "国际",
+      "title": "VentureBeat names Rob Strechay as its first Lead Analyst, expanding its enterprise AI research push",
+      "link": "https://venturebeat.com/ai/venturebeat-names-rob-strechay-as-its-first-lead-analyst-expanding-its-enterprise-ai-research-push",
+      "published": "2026-08-19T14:18:12+00:00",
+      "summary": "Rob Strechay, until recently managing director and principal analyst at theCUBE Research, has joined VentureBeat as our first Lead Analyst and a founding analyst of VentureBeat Research. His arrival is the next step in a deliberate move at VentureBeat toward deeper specialization: analysis built for the technical decision-makers â the directors, VPs, CIOs, and CTOs â who are evaluating, buying, and deploying enterprise AI. Read more",
+      "fetched_at": "2026-10-03T05:20:40+00:00"
+    },
+    {
+      "source": "VentureBeat AI",
+      "region": "国际",
+      "title": "Google just redesigned the search box for the first time in 25 years â hereâs why it matters more than you think.",
+      "link": "https://venturebeat.com/technology/google-just-redesigned-the-search-box-for-the-first-time-in-25-years-heres-why-it-matters-more-than-you-think",
+      "published": "2026-05-19T17:45:00+00:00",
+      "summary": "For a quarter century, the Google search box has been one of the most recognizable interfaces in computing: a thin white rectangle, a blinking cursor, a few typed words, and a list of blue links. On Tuesday, Google will formally retire that paradigm. Read more",
+      "fetched_at": "2026-10-03T05:20:40+00:00"
+    },
+    {
+      "source": "VentureBeat AI",
+      "region": "国际",
+      "title": "Railway secures $100 million to challenge AWS with AI-native cloud infrastructure",
+      "link": "https://venturebeat.com/infrastructure/railway-secures-usd100-million-to-challenge-aws-with-ai-native-cloud",
+      "published": "2026-01-22T14:00:00+00:00",
+      "summary": "Railway, a San Francisco-based cloud platform that has quietly amassed two million developers without spending a dollar on marketing, announced Thursday that it raised $100 million in a Series B funding round, as surging demand for artificial intelligence applications exposes the limitations of legacy cloud infrastructure. Read more",
+      "fetched_at": "2026-10-03T05:20:40+00:00"
+    },
+    {
+      "source": "VentureBeat AI",
+      "region": "国际",
+      "title": "Claude Code costs up to $200 a month. Goose does the same thing for free.",
+      "link": "https://venturebeat.com/infrastructure/claude-code-costs-up-to-usd200-a-month-goose-does-the-same-thing-for-free",
+      "published": "2026-01-19T14:00:00+00:00",
+      "summary": "The artificial intelligence coding revolution comes with a catch: it&#39;s expensive. Read more",
+      "fetched_at": "2026-10-03T05:20:40+00:00"
+    },
+    {
+      "source": "TechCrunch AI",
+      "region": "国际",
+      "title": "Meta wants your next gadget to be Muse-infused",
+      "link": "https://techcrunch.com/2026/10/02/meta-wants-you-to-build-your-own-muse-gadget/",
+      "published": "2026-10-03T00:45:39+00:00",
+      "summary": "Meta wants Muse in your TV and your toaster, so it's giving the code away for free.",
+      "fetched_at": "2026-10-03T05:20:44+00:00"
+    },
+    {
+      "source": "TechCrunch AI",
+      "region": "国际",
+      "title": "Sean Parker is rebuilding Stability AI around music",
+      "link": "https://techcrunch.com/2026/10/02/sean-parker-is-rebuilding-stability-ai-around-music/",
+      "published": "2026-10-02T21:09:14+00:00",
+      "summary": "Sean Parker, who once taught the music industry what asking for forgiveness looks like, is now back with the labels' blessing and money.",
+      "fetched_at": "2026-10-03T05:20:44+00:00"
+    },
+    {
+      "source": "TechCrunch AI",
+      "region": "国际",
+      "title": "Affected by layoffs? Don’t miss this $75 deal for your TechCrunch Disrupt 2026 Expo+ Pass",
+      "link": "https://techcrunch.com/2026/10/02/disrupt-2026-layoff-expo-plus-passes-available-for-75-dollars/",
+      "published": "2026-10-02T19:15:51+00:00",
+      "summary": "Your next opportunity could be one conversation away. Get your Expo+ Pass for just $75. Limited to the first 100 qualifying people.",
+      "fetched_at": "2026-10-03T05:20:44+00:00"
+    },
+    {
+      "source": "TechCrunch AI",
+      "region": "国际",
+      "title": "Apple says it’s tightening macOS ‘Full Disk Access’ controls due to new risks from AI agents",
+      "link": "https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/",
+      "published": "2026-10-02T18:11:27+00:00",
+      "summary": "Apple says it will add new controls around macOS’s Full Disk Access permission, warning that increasingly capable AI agents make broad access to users’ files, messages, mail, and browsing history riskier.",
+      "fetched_at": "2026-10-03T05:20:44+00:00"
+    },
+    {
+      "source": "TechCrunch AI",
+      "region": "国际",
+      "title": "Call it AI, call it Super Intelligence, only 2% of consumers are buying it",
+      "link": "https://techcrunch.com/podcast/call-it-ai-call-it-super-intelligence-only-2-of-consumers-are-buying-it/",
+      "published": "2026-10-02T17:56:00+00:00",
+      "summary": "This week, the White House got&#160;nearly every&#160;major tech CEO in one room — Zuckerberg, Bezos, Musk, and Anthropic’s Dario Amodei among them —&#160;to sign an AI safety pledge&#160;that President&#160;Donald&#160;Trump called “morally binding.”&#160;Trump&#160;also&#160;signed an&#160;executive order&#160;officially rebranding AI as “super intelligence,” and meanwhile,&#160;Meta and OpenAI are putting&#160;friendlier faces on their AI products, even as the biggest money [&#8230;]",
+      "fetched_at": "2026-10-03T05:20:44+00:00"
+    },
+    {
+      "source": "TechCrunch AI",
+      "region": "国际",
+      "title": "It’s not AI anymore, it’s ‘super intelligence’ (according to the White House)",
+      "link": "https://techcrunch.com/video/its-not-ai-anymore-its-super-intelligence-according-to-the-white-house/",
+      "published": "2026-10-02T17:48:16+00:00",
+      "summary": "This week, the White House got&#160;nearly every&#160;major tech CEO in one room — Zuckerberg, Bezos, Musk, and Anthropic’s Dario Amodei among them —&#160;to sign an AI safety pledge&#160;that President&#160;Donald&#160;Trump called “morally binding.”&#160;Trump&#160;also&#160;signed an&#160;executive order&#160;officially rebranding AI as “super intelligence,” and meanwhile,&#160;Meta and OpenAI are putting&#160;friendlier faces on their AI products, even as the biggest money [&#8230;]",
+      "fetched_at": "2026-10-03T05:20:44+00:00"
+    },
+    {
+      "source": "TechCrunch AI",
+      "region": "国际",
+      "title": "TechCrunch Disrupt 2026: Blackstone’s Jas Khaira on building the next generation of AI giants",
+      "link": "https://techcrunch.com/2026/10/02/techcrunch-disrupt-2026-blackstones-jas-khaira-on-building-the-next-generation-of-ai-giants/",
+      "published": "2026-10-02T17:32:05+00:00",
+      "summary": "Blackstone's Jas Khaira will take the Builders Stage at TechCrunch Disrupt 2026 on building next-gen AI. Register for your pass and get 50% off a second.",
+      "fetched_at": "2026-10-03T05:20:44+00:00"
+    },
+    {
+      "source": "TechCrunch AI",
+      "region": "国际",
+      "title": "Circuit Breaker Labs hopes to make AI safer for your kids (and you)",
+      "link": "https://techcrunch.com/2026/10/02/circuit-breaker-labs-hopes-to-make-ai-safer-for-your-kids-and-you/",
+      "published": "2026-10-02T17:00:00+00:00",
+      "summary": "With all the talk about how AI might one day kill us all, it's easy to forget that AI has already harmed some people psychologically. Circuit Breaker Labs has created \"crash-test dummies\" to solve that.",
+      "fetched_at": "2026-10-03T05:20:44+00:00"
+    },
+    {
+      "source": "TechCrunch AI",
+      "region": "国际",
+      "title": "Pope Leo XIV is not a fan of AI-generated art",
+      "link": "https://techcrunch.com/2026/10/02/pope-leo-xiv-is-not-a-fan-of-ai-generated-art/",
+      "published": "2026-10-02T15:39:41+00:00",
+      "summary": "\"There is an ontological difference, even before an aesthetic one, between art and what a machine can generate through statistical calculation based on millions of images created by others,\" the pope wrote. \"Algorithms lack the spark of humanity.\"",
+      "fetched_at": "2026-10-03T05:20:44+00:00"
+    },
+    {
+      "source": "TechCrunch AI",
+      "region": "国际",
+      "title": "TechCrunch Disrupt 2026: Clay’s Kareem Amin on the rise of the GTM engineer",
+      "link": "https://techcrunch.com/2026/10/02/techcrunch-disrupt-2026-clays-kareem-amin-on-the-rise-of-the-gtm-engineer/",
+      "published": "2026-10-02T14:30:00+00:00",
+      "summary": "Clay Co-founder and CEO Kareem Amin joins the AI Stage to discuss the rise of GTM engineer at TechCrunch Disrupt 2026. Register for your ticket and get a second pass at 50% off.",
+      "fetched_at": "2026-10-03T05:20:44+00:00"
+    },
+    {
+      "source": "TechCrunch AI",
+      "region": "国际",
+      "title": "Last 24 hours: Exhibit at TechCrunch Disrupt 2026 and reach 10,000+ tech leaders",
+      "link": "https://techcrunch.com/2026/10/02/last-24-hours-exhibit-at-techcrunch-disrupt-2026-and-reach-10000-tech-leaders/",
+      "published": "2026-10-02T14:00:00+00:00",
+      "summary": "Today is the last day to book your exhibit table at TechCrunch Disrupt 2026. From October 13–15, 10,000+ founders, investors, operators, and tech leaders will arrive at San Francisco’s Moscone West looking for companies, products, ideas, and people worth knowing. The question is: Will they find your startup?",
+      "fetched_at": "2026-10-03T05:20:44+00:00"
+    },
+    {
+      "source": "TechCrunch AI",
+      "region": "国际",
+      "title": "Musk’s AI chatbot Grok reportedly encouraged Trump to capture Venezuela’s president",
+      "link": "https://techcrunch.com/2026/10/01/musks-ai-chatbot-grok-reportedly-encouraged-trump-to-capture-venezuelas-president/",
+      "published": "2026-10-01T21:08:11+00:00",
+      "summary": "President Trump reportedly asked for Grok's opinion before invading Venezuela and capturing Nicolás Maduro.",
+      "fetched_at": "2026-10-03T05:20:44+00:00"
+    },
+    {
+      "source": "TechCrunch AI",
+      "region": "国际",
+      "title": "ChatGPT can now virtually try on clothes for you",
+      "link": "https://techcrunch.com/2026/10/01/chatgpt-can-now-virtually-try-on-clothes-for-you/",
+      "published": "2026-10-01T19:21:53+00:00",
+      "summary": "OpenAI is rolling out new shopping features for ChatGPT that let users virtually try on clothing and accessories using their own photos and save products they like to a Favorites library.",
+      "fetched_at": "2026-10-03T05:20:44+00:00"
+    },
+    {
+      "source": "TechCrunch AI",
+      "region": "国际",
+      "title": "Google thinks SpaceX’s Starship has to launch 1,800 times before space data centers get off the ground",
+      "link": "https://techcrunch.com/2026/10/01/google-thinks-spacexs-starship-has-to-launch-1600-times-before-space-data-centers-get-off-the-ground/",
+      "published": "2026-10-01T19:18:03+00:00",
+      "summary": "Google launched its first advanced chip into orbit to pave the way for space data centers.",
+      "fetched_at": "2026-10-03T05:20:44+00:00"
+    },
+    {
+      "source": "TechCrunch AI",
+      "region": "国际",
+      "title": "OpenAI cuts ties with 3 safety researchers, WSJ reports",
+      "link": "https://techcrunch.com/2026/10/01/openai-cuts-ties-with-three-safety-researchers-wsj-reports/",
+      "published": "2026-10-01T18:14:42+00:00",
+      "summary": "OpenAI has parted ways with three safety researchers after an internal investigation found they mishandled sensitive company information, report says.",
+      "fetched_at": "2026-10-03T05:20:44+00:00"
+    },
+    {
+      "source": "TechCrunch AI",
+      "region": "国际",
+      "title": "Opus 5.5 loves to tell you ‘this matters’ (and other AI writing tells)",
+      "link": "https://techcrunch.com/2026/10/01/opus-5-5-loves-to-tell-you-this-matters-and-other-ai-writing-tells/",
+      "published": "2026-10-01T17:50:19+00:00",
+      "summary": "Opus 5.5’s biggest tell is the word “dependable,” which pops up 23 times more often than in human samples.",
+      "fetched_at": "2026-10-03T05:20:44+00:00"
+    },
+    {
+      "source": "TechCrunch AI",
+      "region": "国际",
+      "title": "Amazon releases its own Jev clone as decision models flood the web",
+      "link": "https://techcrunch.com/2026/10/01/amazon-releases-its-own-jev-clone-as-decision-models-flood-the-web/",
+      "published": "2026-10-01T16:49:22+00:00",
+      "summary": "Amazon Web Services' Strand Labs has released the latest Jevalike decision model, Strands Decider 2B.",
+      "fetched_at": "2026-10-03T05:20:44+00:00"
+    },
+    {
+      "source": "TechCrunch AI",
+      "region": "国际",
+      "title": "Shopify debuts Canvas, a way to build online stores by chatting with AI",
+      "link": "https://techcrunch.com/2026/10/01/shopify-debuts-canvas-a-way-to-build-online-stores-by-chatting-with-ai/",
+      "published": "2026-10-01T16:44:35+00:00",
+      "summary": "Shopify’s new Canvas site builder lets merchants create and customize their online stores by chatting with its AI agent Sidekick, while watching the changes happen in real time.",
+      "fetched_at": "2026-10-03T05:20:44+00:00"
+    },
+    {
+      "source": "TechCrunch AI",
+      "region": "国际",
+      "title": "Brian Chesky interview: AI agents need their own operating system",
+      "link": "https://techcrunch.com/2026/10/01/brian-chesky-interview-ai-agents-need-their-own-operating-system/",
+      "published": "2026-10-01T15:12:00+00:00",
+      "summary": "Brian Chesky on making Airbnb agent-friendly, the state of consumer AI, and why the world needs an AI-native operating system.",
+      "fetched_at": "2026-10-03T05:20:44+00:00"
+    },
+    {
+      "source": "TechCrunch AI",
+      "region": "国际",
+      "title": "Photon held a funeral for mobile apps. Now it has $4.5M to help replace them with agents.",
+      "link": "https://techcrunch.com/2026/10/01/photon-held-a-funeral-for-mobile-apps-now-it-has-4-5m-to-help-replace-them-with-agents/",
+      "published": "2026-10-01T14:00:00+00:00",
+      "summary": "The startup helps developers build AI agents that work over iMessage, SMS/RCS, email, and other messaging platforms. It's a bet that consumers will increasingly use agents instead of downloading apps.",
+      "fetched_at": "2026-10-03T05:20:44+00:00"
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "source": "InfoQ 中国",
+  "url": "https://www.infoq.cn/feed",
+  "region": "国内",
+  "count": 20,
+  "articles": [
+    {
+      "source": "InfoQ 中国",
+      "region": "国内",
+      "title": "企业级 Agent Infra 架构实践：从安全沙箱到网络管控与身份治理｜QCon上海",
+      "link": "https://www.infoq.cn/article/bLB8RQ6sd3ZGQts0D4tP?utm_source=rss&utm_medium=article",
+      "published": "2026-10-03T10:00:00+00:00",
+      "summary": "点击查看原文>",
+      "fetched_at": "2026-10-03T05:20:28+00:00"
+    },
+    {
+      "source": "InfoQ 中国",
+      "region": "国内",
+      "title": "Andrew Kelley 专访：他为何创建 Zig、禁止 AI 贡献以及将 Zig 从 GitHub 移出",
+      "link": "https://www.infoq.cn/article/eRbEA3dMd58RNPqp5D8S?utm_source=rss&utm_medium=article",
+      "published": "2026-10-02T13:00:00+00:00",
+      "summary": "点击查看原文>",
+      "fetched_at": "2026-10-03T05:20:28+00:00"
+    },
+    {
+      "source": "InfoQ 中国",
+      "region": "国内",
+      "title": "Graphify：整合代码库上下文，优化基于代理的软件工程",
+      "link": "https://www.infoq.cn/article/8XuP4iZKKr3ex2VTDxpl?utm_source=rss&utm_medium=article",
+      "published": "2026-10-02T10:00:00+00:00",
+      "summary": "点击查看原文>",
+      "fetched_at": "2026-10-03T05:20:28+00:00"
+    },
+    {
+      "source": "InfoQ 中国",
+      "region": "国内",
+      "title": "别再给 Agent 一个“毛坯房”了：构建 Agent 拎包入住的开发环境实践｜QCon上海",
+      "link": "https://www.infoq.cn/article/DEyrayxufObhpoeZgOKT?utm_source=rss&utm_medium=article",
+      "published": "2026-10-02T10:00:00+00:00",
+      "summary": "点击查看原文>",
+      "fetched_at": "2026-10-03T05:20:28+00:00"
+    },
+    {
+      "source": "InfoQ 中国",
+      "region": "国内",
+      "title": "在 Cloudflare Worker 上实现多租户 SaaS 规模的模块化边缘计算",
+      "link": "https://www.infoq.cn/article/P5yCYKFiJfKAICrf8bfs?utm_source=rss&utm_medium=article",
+      "published": "2026-10-01T14:00:00+00:00",
+      "summary": "点击查看原文>",
+      "fetched_at": "2026-10-03T05:20:28+00:00"
+    },
+    {
+      "source": "InfoQ 中国",
+      "region": "国内",
+      "title": "刚刚，Gemini 4 Argon 发布：多项基测碾压 GPT-6 Astra，已参与谷歌 80 万行内核代码迁移",
+      "link": "https://www.infoq.cn/article/vVrSzjhEvkmpevS7wZzU?utm_source=rss&utm_medium=article",
+      "published": "2026-10-01T11:00:00+00:00",
+      "summary": "点击查看原文>",
+      "fetched_at": "2026-10-03T05:20:28+00:00"
+    },
+    {
+      "source": "InfoQ 中国",
+      "region": "国内",
+      "title": "Elastic Beanstalk 跑上 EKS，开发者质疑：为什么不把 ECS 做好？",
+      "link": "https://www.infoq.cn/article/AYXLumiEmzcCrKrRuq9B?utm_source=rss&utm_medium=article",
+      "published": "2026-10-01T10:00:00+00:00",
+      "summary": "点击查看原文>",
+      "fetched_at": "2026-10-03T05:20:28+00:00"
+    },
+    {
+      "source": "InfoQ 中国",
+      "region": "国内",
+      "title": "生成即合规：Agentic AIGC 驱动的广告素材修复实践｜QCon上海",
+      "link": "https://www.infoq.cn/article/TLjNcyBg9Z72HV5kJ2kp?utm_source=rss&utm_medium=article",
+      "published": "2026-10-01T10:00:00+00:00",
+      "summary": "点击查看原文>",
+      "fetched_at": "2026-10-03T05:20:28+00:00"
+    },
+    {
+      "source": "InfoQ 中国",
+      "region": "国内",
+      "title": "谷歌开源面向自主 AI 代理的 Kubernetes 风格编排器 AX",
+      "link": "https://www.infoq.cn/article/M6BRTrsyJvUg8y0M0kyh?utm_source=rss&utm_medium=article",
+      "published": "2026-09-30T20:40:07+00:00",
+      "summary": "点击查看原文>",
+      "fetched_at": "2026-10-03T05:20:28+00:00"
+    },
+    {
+      "source": "InfoQ 中国",
+      "region": "国内",
+      "title": "GitLab Duo 通过微软 Foundry 扩展自托管 AI 选项",
+      "link": "https://www.infoq.cn/article/cA9rSEGKphbJHIiTQKMv?utm_source=rss&utm_medium=article",
+      "published": "2026-09-30T20:37:48+00:00",
+      "summary": "点击查看原文>",
+      "fetched_at": "2026-10-03T05:20:28+00:00"
+    },
+    {
+      "source": "InfoQ 中国",
+      "region": "国内",
+      "title": "DeepSeek 开源昇腾平台基础设施组件，覆盖 TileLang、计算库与分布式通信库",
+      "link": "https://www.infoq.cn/article/t5i2Yv2z0LwIbK36lteR?utm_source=rss&utm_medium=article",
+      "published": "2026-09-30T19:40:16+00:00",
+      "summary": "点击查看原文>",
+      "fetched_at": "2026-10-03T05:20:28+00:00"
+    },
+    {
+      "source": "InfoQ 中国",
+      "region": "国内",
+      "title": "像改文字一样改语音：火山引擎全新语音内容编辑模型",
+      "link": "https://www.infoq.cn/article/07qzHLvyNXSW1SFNV5NV?utm_source=rss&utm_medium=article",
+      "published": "2026-09-30T19:39:04+00:00",
+      "summary": "点击查看原文>",
+      "fetched_at": "2026-10-03T05:20:28+00:00"
+    },
+    {
+      "source": "InfoQ 中国",
+      "region": "国内",
+      "title": "机房堆满算力卡，业务却还在排队？这份评估报告拆开了“算力荒假象”的破局账本",
+      "link": "https://www.infoq.cn/article/bduvBdbgwxj6DMbNeKCC?utm_source=rss&utm_medium=article",
+      "published": "2026-09-30T17:37:10+00:00",
+      "summary": "点击查看原文>",
+      "fetched_at": "2026-10-03T05:20:28+00:00"
+    },
+    {
+      "source": "InfoQ 中国",
+      "region": "国内",
+      "title": "意图驱动治理：分钟级实现敏感数据规模化保护｜ 技术实践",
+      "link": "https://www.infoq.cn/article/ZBXXP1BuZMIGusWyQZvB?utm_source=rss&utm_medium=article",
+      "published": "2026-09-30T15:42:49+00:00",
+      "summary": "点击查看原文>",
+      "fetched_at": "2026-10-03T05:20:28+00:00"
+    },
+    {
+      "source": "InfoQ 中国",
+      "region": "国内",
+      "title": "Changesets 3.0 发布：对等依赖下游包默认升补丁版本，纯 ESM 发布，安装体积缩减 88%",
+      "link": "https://www.infoq.cn/article/JEw7578VW84g7wmh75gM?utm_source=rss&utm_medium=article",
+      "published": "2026-09-30T15:25:27+00:00",
+      "summary": "点击查看原文>",
+      "fetched_at": "2026-10-03T05:20:28+00:00"
+    },
+    {
+      "source": "InfoQ 中国",
+      "region": "国内",
+      "title": "从 AI 试点到营收增长：Snowflake 销售与营销团队如何跨越落地鸿沟 ｜ 技术实践",
+      "link": "https://www.infoq.cn/article/hw3PpM2ZlCmCArsNo1y7?utm_source=rss&utm_medium=article",
+      "published": "2026-09-30T15:12:35+00:00",
+      "summary": "点击查看原文>",
+      "fetched_at": "2026-10-03T05:20:28+00:00"
+    },
+    {
+      "source": "InfoQ 中国",
+      "region": "国内",
+      "title": "一个忘关的开关，与企业Agent的全栈技术账单",
+      "link": "https://www.infoq.cn/article/z9VP6ZQ3vCxTrk1VdU5D?utm_source=rss&utm_medium=article",
+      "published": "2026-09-30T12:10:15+00:00",
+      "summary": "点击查看原文>",
+      "fetched_at": "2026-10-03T05:20:28+00:00"
+    },
+    {
+      "source": "InfoQ 中国",
+      "region": "国内",
+      "title": "首发！openJiuwen workSwarm全双工多模态 ，像聊天一样与Agent交互，昇腾算力原生亲和",
+      "link": "https://www.infoq.cn/article/fOuaRtwuySyZsS0iGg7N?utm_source=rss&utm_medium=article",
+      "published": "2026-09-30T11:52:00+00:00",
+      "summary": "点击查看原文>",
+      "fetched_at": "2026-10-03T05:20:28+00:00"
+    },
+    {
+      "source": "InfoQ 中国",
+      "region": "国内",
+      "title": "Java 近期新闻：JDK 27、Open J Proxy、A2A Jakarta、Azul Payara、BoxLang、Netflix ja",
+      "link": "https://www.infoq.cn/article/Rgb6X5RSD1P8HQzRc0K7?utm_source=rss&utm_medium=article",
+      "published": "2026-09-30T10:45:00+00:00",
+      "summary": "点击查看原文>",
+      "fetched_at": "2026-10-03T05:20:28+00:00"
+    },
+    {
+      "source": "InfoQ 中国",
+      "region": "国内",
+      "title": "AIGC 驱动的内容生产力变革--Vidu 多模态大模型的创新与实践｜QCon上海",
+      "link": "https://www.infoq.cn/article/OBQpdcB1xURrJMRlrJZ1?utm_source=rss&utm_medium=article",
+      "published": "2026-09-30T10:00:00+00:00",
+      "summary": "点击查看原文>",
+      "fetched_at": "2026-10-03T05:20:28+00:00"
+    }
+  ]
+}

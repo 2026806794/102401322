@@ -1,0 +1,98 @@
+{
+  "source": "量子位",
+  "url": "https://www.qbitai.com/feed",
+  "region": "国内",
+  "count": 10,
+  "articles": [
+    {
+      "source": "量子位",
+      "region": "国内",
+      "title": "OpenAI安全团队持续地震！负责人离职，三名员工因泄密被开",
+      "link": "https://www.qbitai.com/2026/10/501368.html",
+      "published": "2026-10-03T04:41:24+00:00",
+      "summary": "又咋啦。。。",
+      "fetched_at": "2026-10-03T05:20:25+00:00"
+    },
+    {
+      "source": "量子位",
+      "region": "国内",
+      "title": "Jev估值100亿美元！创始人Diogo Almeida回答一切",
+      "link": "https://www.qbitai.com/2026/10/500148.html",
+      "published": "2026-10-03T02:38:19+00:00",
+      "summary": "",
+      "fetched_at": "2026-10-03T05:20:25+00:00"
+    },
+    {
+      "source": "量子位",
+      "region": "国内",
+      "title": "openJiuwen X-Router自演进模型路由技术首发，昇腾亲和，Agent越跑越省，实测减少50+%Token消耗",
+      "link": "https://www.qbitai.com/2026/10/500098.html",
+      "published": "2026-10-02T07:34:15+00:00",
+      "summary": "让每一次请求选对模型，让每一次反馈都成为下一次更优、更省的选择",
+      "fetched_at": "2026-10-03T05:20:25+00:00"
+    },
+    {
+      "source": "量子位",
+      "region": "国内",
+      "title": "丘成桐新论文致谢了GPT和Claude",
+      "link": "https://www.qbitai.com/2026/10/499991.html",
+      "published": "2026-10-02T07:27:03+00:00",
+      "summary": "44年前被亲自列入问题清单",
+      "fetched_at": "2026-10-03T05:20:25+00:00"
+    },
+    {
+      "source": "量子位",
+      "region": "国内",
+      "title": "arXiv最严新规！每人每月最多提交2篇，拒稿不退额度",
+      "link": "https://www.qbitai.com/2026/10/499958.html",
+      "published": "2026-10-02T06:46:32+00:00",
+      "summary": "换区也没用",
+      "fetched_at": "2026-10-03T05:20:25+00:00"
+    },
+    {
+      "source": "量子位",
+      "region": "国内",
+      "title": "何恺明团队新作：看猫片就能学会ARC挑战",
+      "link": "https://www.qbitai.com/2026/10/499812.html",
+      "published": "2026-10-01T15:06:30+00:00",
+      "summary": "用ImageNet训练encoder",
+      "fetched_at": "2026-10-03T05:20:25+00:00"
+    },
+    {
+      "source": "量子位",
+      "region": "国内",
+      "title": "谷歌Gemini 4突然发布！RSI加持，GPT和Opus都让让",
+      "link": "https://www.qbitai.com/2026/10/499663.html",
+      "published": "2026-10-01T15:02:14+00:00",
+      "summary": "价格只有Astra一半",
+      "fetched_at": "2026-10-03T05:20:25+00:00"
+    },
+    {
+      "source": "量子位",
+      "region": "国内",
+      "title": "OpenAI推理之父最新访谈！数学只是多智能体时代的开胃菜",
+      "link": "https://www.qbitai.com/2026/09/499654.html",
+      "published": "2026-09-30T14:03:43+00:00",
+      "summary": "千禧年难题的突破，10000个Agent最多占了10%的功劳。",
+      "fetched_at": "2026-10-03T05:20:25+00:00"
+    },
+    {
+      "source": "量子位",
+      "region": "国内",
+      "title": "直播回顾：工业AI的下一个机会在哪？",
+      "link": "https://www.qbitai.com/2026/09/499605.html",
+      "published": "2026-09-30T12:11:24+00:00",
+      "summary": "什么样的AI才适合工业现场？企业真正开始做工业AI时，又该从哪里下手？",
+      "fetched_at": "2026-10-03T05:20:25+00:00"
+    },
+    {
+      "source": "量子位",
+      "region": "国内",
+      "title": "Anthropic，你是来给智谱打广告的吧！",
+      "link": "https://www.qbitai.com/2026/09/499597.html",
+      "published": "2026-09-30T10:04:12+00:00",
+      "summary": "实测说GLM-5.3很强",
+      "fetched_at": "2026-10-03T05:20:25+00:00"
+    }
+  ]
+}

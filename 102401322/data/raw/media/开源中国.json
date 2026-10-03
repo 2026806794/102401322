@@ -1,0 +1,368 @@
+{
+  "source": "开源中国",
+  "url": "https://www.oschina.net/news/rss",
+  "region": "国内",
+  "count": 40,
+  "articles": [
+    {
+      "source": "开源中国",
+      "region": "国内",
+      "title": "团队使用 Codex 和 Claude Code，API Key 和模型权限怎么管？我开源了 Zentrola",
+      "link": "https://www.oschina.net/news/502836",
+      "published": "2026-10-01T22:28:31+08:00",
+      "summary": "一个人使用 AI Coding 工具时，事情很简单：申请一个 API Key，填进 Codex 或 Claude Code，然后开始工作。 但当使用者从一个人变成一个团队，原本简单的配置问题很快就会变成管理问题：真实 API Key 要不要发给每个人？新成员应该能用哪些模型？成员离职后如何撤销权限？上游服务商发生故障时，是否要通知所有人临时修改...",
+      "fetched_at": "2026-10-03T05:20:37+00:00"
+    },
+    {
+      "source": "开源中国",
+      "region": "国内",
+      "title": "Anthropic 红队盯上 GLM-5.3：能力追平 Mythos，却连拒绝护栏都是摆设",
+      "link": "https://www.oschina.net/news/502835/anthropic-research-glm-5-3-advanced-cyber-capabilities",
+      "published": "2026-09-30T18:23:24+08:00",
+      "summary": "Anthropic 的前沿红色团队（Frontier Red Team）盯上了智谱的 GLM-5.3，结论有点重：这是第一个能像五个月前的 Claude Mythos Preview 那样自主构建端到端漏洞利用、却几乎光着身子就被放出来的模型。 五个月前，Anthropic 发布 Claude Mythos Preview，自称是第一个能自主构建复杂端到端漏洞利用的 AI 模型。当时他们判...",
+      "fetched_at": "2026-10-03T05:20:37+00:00"
+    },
+    {
+      "source": "开源中国",
+      "region": "国内",
+      "title": "生态聚力・智启新程｜openKylin生态委员会第七次会议圆满召开",
+      "link": "https://www.oschina.net/news/502833",
+      "published": "2026-09-30T17:43:17+08:00",
+      "summary": "2026年9月29日，OpenAtom openKylin（简称\"openKylin\"）生态委员会第七次会议成功举行。与会委员围绕委员增选、工作组管理、生态运营进展及未来规划等议题展开讨论，共同推动社区治理与生态建设。 治理焕新｜生态委员会再添强援 社区治理结构持续优化，新鲜血液正式注入。会议审议增选周庆飞、尹志超 两位行业专家为ope...",
+      "fetched_at": "2026-10-03T05:20:37+00:00"
+    },
+    {
+      "source": "开源中国",
+      "region": "国内",
+      "title": "openKylin参展2026明日城市・上海：开源操作系统走向国际舞台",
+      "link": "https://www.oschina.net/news/502832",
+      "published": "2026-09-30T17:41:20+08:00",
+      "summary": "9月22日至26日，2026明日城市・上海（Tomorrow.City Shanghai 2026，TCS 2026）于上海张江科学会堂举办。大会以 “共济山海，和而不同” 为主题，是全球智慧城市大会立足中国、辐射 “一带一路” 的区域盛会，旨在搭建国际城市数字化政企合作平台，对接全球城市真实需求，推动中国数字技术方案与国际城市发展需求双向赋能...",
+      "fetched_at": "2026-10-03T05:20:37+00:00"
+    },
+    {
+      "source": "开源中国",
+      "region": "国内",
+      "title": "OpenAI 发布 GPT‑6.1 Sol：智能水平接近 Astra、价格仅为其五分之一",
+      "link": "https://www.oschina.net/news/502831/openai-gpt-6-1-sol",
+      "published": "2026-09-30T17:10:28+08:00",
+      "summary": "OpenAI 上周才推出 GPT-6 Sol，这周就把 6.1 Sol 端上了桌。官方称之为一次「重大升级」，覆盖专业办公、操控电脑、agentic 编程等任务。放在别家这可能只是常规迭代，但放在此刻的 OpenAI 身上，最刺眼的参照系是隔壁：6.1 代号的 Astra 迭代，前两天刚因为没通过安全标准被按下暂停。 Sol 打市场的方式是「错位」——现...",
+      "fetched_at": "2026-10-03T05:20:37+00:00"
+    },
+    {
+      "source": "开源中国",
+      "region": "国内",
+      "title": "谷歌将提前两年终止对 ChromeOS 的支持",
+      "link": "https://www.oschina.net/news/502827/google-ending-chromeos-support-two-years-early",
+      "published": "2026-09-30T16:09:49+08:00",
+      "summary": "Google 用一份支持文档，悄悄把 Chromebook 们的寿命砍了两年。文档标题很客气——「What the Googlebook announcement means for your ChromeOS devices」，但内容很直接：现在买入的 Chromebook，更新支持在 2034 年就画上句号，而不是原来说好的十年。 Googlebook 是 Chromebook 的接班产品线。Chromebook 2011 年发布...",
+      "fetched_at": "2026-10-03T05:20:37+00:00"
+    },
+    {
+      "source": "开源中国",
+      "region": "国内",
+      "title": "dummyscheme，另一个 lisp/scheme 方言，支持 r5rs",
+      "link": "https://www.oschina.net/news/502825",
+      "published": "2026-09-30T15:19:25+08:00",
+      "summary": "受Lua启发，支持R5RS，基于字节码和寄存器寻址的Scheme 解释器 字节码编译器，指令集基于寄存器 尾调用优化 一等公民延续（call/cc），multi-short、不限长度，用 callframe 的 copy-on-write 实现 （界定延续 delimited continuation 计划在不久的将来支持） 扁平的 box value（受 Lua 启发），没有链条；被内层 lambda...",
+      "fetched_at": "2026-10-03T05:20:37+00:00"
+    },
+    {
+      "source": "开源中国",
+      "region": "国内",
+      "title": "dummyscheme，轻量 scheme 解释器，支持 r5rs，基于字节码和寄存器寻址",
+      "link": "https://www.oschina.net/news/502824",
+      "published": "2026-09-30T15:19:00+08:00",
+      "summary": "受Lua启发，支持R5RS，基于字节码和寄存器寻址的Scheme 解释器 字节码编译器，指令集基于寄存器 尾调用优化 一等公民延续（call/cc），multi-short、不限长度，用 callframe 的 copy-on-write 实现 （界定延续 delimited continuation 计划在不久的将来支持） 扁平的 box value（受 Lua 启发），没有链条；被内层 lambda...",
+      "fetched_at": "2026-10-03T05:20:37+00:00"
+    },
+    {
+      "source": "开源中国",
+      "region": "国内",
+      "title": "【AI 智能运维平台】本周更新：智能体问答现可展示知识库中的图片",
+      "link": "https://www.oschina.net/news/502823",
+      "published": "2026-09-30T15:01:20+08:00",
+      "summary": "Blueking Lite 是一个 AI First 的轻量版运维产品，具有部署资源要求低、使用成本低、渐进式体验等特点，为运维管理员提供日常运维中的必备工具。 📢 【平台 · 本周更新速递】 🛠 系统管理 • 支持查看API调用日志 🗂 CMDB • 新增物理服务器 Redfish 采集 🛠 作业平台 • 脚本库支持 ZIP 批量导入导出 • Ansi...",
+      "fetched_at": "2026-10-03T05:20:37+00:00"
+    },
+    {
+      "source": "开源中国",
+      "region": "国内",
+      "title": "OpenAI 发布全天候运行 AI Agent \"dots\"，由 GPT‑6 Astra 驱动、拥有独立的云端电脑",
+      "link": "https://www.oschina.net/news/502820/openai-dots",
+      "published": "2026-09-30T14:25:01+08:00",
+      "summary": "周二旧金山的 OpenAI DevDay 2026 开发者大会上，Sam Altman 热情洋溢地揭开了 dots 的面纱——一个由 GPT-6 Astra 驱动的个人智能体助理。 dots 长着一张人畜无害的脸：戴贝雷帽、架眼镜的彩色小圆点，出现在手机和笔记本屏幕上，可以集成进第三方应用。Altman 在发布会上的形容一个比一个用力，「比 ChatGPT 更有野心」...",
+      "fetched_at": "2026-10-03T05:20:37+00:00"
+    },
+    {
+      "source": "开源中国",
+      "region": "国内",
+      "title": "MateClaw 2.3.0 发布：企业智能体告别“自报完成”，不可变 JSON 接管长任务验收",
+      "link": "https://www.oschina.net/news/502818",
+      "published": "2026-09-30T14:08:44+08:00",
+      "summary": "MateClaw 2.3.0 正式版已于 2026 年 9 月 20 日发布。本次版本为 Persistent Goal 增加用户配置的托管 JSON 验收：Agent 发布不可变产物版本，服务端将检查结果绑定到当前要求与具体 generation，所有当前绑定有效后才允许完成目标。 同时发布的还有观察模式执行证据、Team Worker 受控干预、Skill 文档及文件夹上传，以...",
+      "fetched_at": "2026-10-03T05:20:37+00:00"
+    },
+    {
+      "source": "开源中国",
+      "region": "国内",
+      "title": "DeepSeek Harness v0.2 发布桌面版：装插件靠 npm 包名，还能让 AI 自己写插件",
+      "link": "https://www.oschina.net/news/502817",
+      "published": "2026-09-30T13:59:16+08:00",
+      "summary": "DeepSeek Harness 终于有了「开箱即用」的样子。本周（9 月 29 日）v0.2 预览版正式发布，同时放出 macOS 和 Windows 桌面端安装包，去官网 deepseek.com/harness 下载装上、跟着引导走就能上手，不用再折腾命令行。 新版本主打日常办公和开发的开箱即用，把常用能力直接预置进去。你可以丢给它文档、表格或 PDF，让它整...",
+      "fetched_at": "2026-10-03T05:20:37+00:00"
+    },
+    {
+      "source": "开源中国",
+      "region": "国内",
+      "title": "Resumv 开源：免注册、本地保存的简历制作工具，支持 15 套模板",
+      "link": "https://www.oschina.net/news/502816",
+      "published": "2026-09-30T13:26:45+08:00",
+      "summary": "Resumv 是一款新近开源的简历制作工具，采用 Astro、React 和 TypeScript 构建，以“免注册、免登录、简历内容保存在浏览器”为核心设计。用户可以直接打开网站编辑和预览简历，也可以将项目部署到自己的静态网站托管环境。 项目地址：https://github.com/liusha-com/resumv 在线体验：https://resumv.com 主要功能 15 套...",
+      "fetched_at": "2026-10-03T05:20:37+00:00"
+    },
+    {
+      "source": "开源中国",
+      "region": "国内",
+      "title": "Termexo v0.10.9 发布：五种 Agent 状态集中显示，终端内可确认完成",
+      "link": "https://www.oschina.net/news/502815",
+      "published": "2026-09-30T13:20:38+08:00",
+      "summary": "开源 Windows 多 Agent 工作台 Termexo 发布 v0.10.9。这次更新把工作区内的 Agent 状态收成按终端顺序排列的图标：空闲为灰色，运行和思考为绿色闪动，异常与等待授权为红色，完成为绿色对号。鼠标悬停可查看对应窗口名称；重命名终端后，提示名称也会同步更新。 状态提醒的目的是帮助开发者找到需要处理的终端。看到完...",
+      "fetched_at": "2026-10-03T05:20:37+00:00"
+    },
+    {
+      "source": "开源中国",
+      "region": "国内",
+      "title": "DeepSeek 开源昇腾基础组件",
+      "link": "https://www.oschina.net/news/502814",
+      "published": "2026-09-30T12:40:55+08:00",
+      "summary": "DeepSeek 今天（9 月 30 日）正式开源面向华为昇腾算力平台的基础设施组件，涵盖 TileLang 高级语言编译工具、计算库、分布式通信库——所有组件与此前面向英伟达平台的开源组件一一对应。 文件里最重的一块是 TileLang 的昇腾版本。DeepSeek 的叙事是：要建立新一代自主可控的 GPU 软件生态，得先有一个通用的、编程简单...",
+      "fetched_at": "2026-10-03T05:20:37+00:00"
+    },
+    {
+      "source": "开源中国",
+      "region": "国内",
+      "title": "KnowForge v2026.0.7 发布：让知识库更好运营，让内容彼此连接",
+      "link": "https://www.oschina.net/news/502812",
+      "published": "2026-09-30T09:51:23+08:00",
+      "summary": "知识整理成文档之后，如何持续更新？读者最关心哪些问题？怎样把内容接入自己的工具，又如何运营一个有价值的知识站点？ KnowForge v2026.0.7 围绕这些需求，带来了会员运营、开放平台、双向链接、读者问题洞察和多实例部署等一系列更新。 KnowForge 是什么？ KnowForge 是一个开源、可部署在自己服务器上的知识库、文档...",
+      "fetched_at": "2026-10-03T05:20:37+00:00"
+    },
+    {
+      "source": "开源中国",
+      "region": "国内",
+      "title": "Goodlink 支持同时运行多个Local端和Remote端 全网最简单、最快、零成本的内网穿透",
+      "link": "https://www.oschina.net/news/502808",
+      "published": "2026-09-29T18:07:38+08:00",
+      "summary": "外出办公, 对比市面上的远程工具, 无论画质、软件适配, 都不如 windows 自带的远程桌面, 但外出如何使用 windows远程桌面？ 是否可以无需远程桌面, 直接访问公司的内网 WEB, GIT, SSH 等？ feat: 默认需要管理员权限运行 feat: 支持多个Local端或者Remote端同时运行在一台主机上 feat(ui): 启动服务时校验互斥，避免与其...",
+      "fetched_at": "2026-10-03T05:20:37+00:00"
+    },
+    {
+      "source": "开源中国",
+      "region": "国内",
+      "title": "Meta 挖走 MongoDB 的 CEO 去管企业 AI，后者股价一天崩了 18%",
+      "link": "https://www.oschina.net/news/502807",
+      "published": "2026-09-29T17:43:59+08:00",
+      "summary": "Meta 把 MongoDB 的 CEO 挖走了，代价是 MongoDB 股价周一早盘崩了 18%。Chirantan \"CJ\" Desai 上任才不到一年，就从数据库软件公司的最高位跳去 Meta 带一个全新的部门——把 Meta 的 AI 工具卖给企业客户。 职位是专门给他新设的：Meta 企业平台首席官（chief enterprise platform officer），直接向扎克伯格汇报。Des...",
+      "fetched_at": "2026-10-03T05:20:37+00:00"
+    },
+    {
+      "source": "开源中国",
+      "region": "国内",
+      "title": "Codeaha v1.0.0 正式发布—本地优先的 AI 编程伙伴",
+      "link": "https://www.oschina.net/news/502806",
+      "published": "2026-09-29T17:05:45+08:00",
+      "summary": "Codeaha｜码悟 Code + Aha，看见代码的顿悟时刻 本地优先、国产大模型友好的 AI 编程 Agent。 基于 GoFrame + Eino + mark3labs/mcp-go + GF sqlite 驱动（glebarez/go-sqlite，纯 Go 无 CGO）构建。 核心特性 本地优先 — 会话、消息与代码变更全部落盘本地 SQLite，代码数据不出本机 Agent 推理 — 基于 Eino Graph 实...",
+      "fetched_at": "2026-10-03T05:20:37+00:00"
+    },
+    {
+      "source": "开源中国",
+      "region": "国内",
+      "title": "Linux 内核要扔掉自己的 LZ4 fork，改为直接引入和同步上游代码",
+      "link": "https://www.oschina.net/news/502802",
+      "published": "2026-09-29T15:28:56+08:00",
+      "summary": "Linux 内核里的 LZ4 压缩实现，终于要停止维护自己的那份「fork」了。三星的 Michal Wilczynski 提交了一个 RFC 补丁系列（9 个 patch），把内核里的 LZ4 从「手工维护的分叉」改成「原样同步 vendor 源码、构建时再适配」，这样以后同步上游就演变成一次目录拷贝。 fork 的代价是实打实的。内核里的解压器最后一次跟上游...",
+      "fetched_at": "2026-10-03T05:20:37+00:00"
+    },
+    {
+      "source": "开源中国",
+      "region": "国内",
+      "title": "荷兰政府基于 NixOS 打造替代 Windows 的办公系统",
+      "link": "https://www.oschina.net/news/502799",
+      "published": "2026-09-29T15:14:03+08:00",
+      "summary": "荷兰政府正在给自己造一套基于 Linux 的办公系统，替代 Windows 和 Office。这套系统叫 DAWO（Digitaal Autonome Werkomgeving Overheid，自治数字政府办公环境），底层是荷兰本土的 Linux 发行版 NixOS，蓝图里不只是操作系统，还包括办公套件、协作应用、云服务和运维工具。荷兰科技媒体 Tweakers 对该项目的三位核心开...",
+      "fetched_at": "2026-10-03T05:20:37+00:00"
+    },
+    {
+      "source": "开源中国",
+      "region": "国内",
+      "title": "Jeff 开源发布：22 毫秒出一次决策的小模型、0.8B 微调在 benchmark 上逼近 Jev",
+      "link": "https://www.oschina.net/news/502796",
+      "published": "2026-09-29T14:12:39+08:00",
+      "summary": "一个叫 Jeff 的开源项目，把「专做快速决策的小模型」这条路又往前推了一步。它是 Qwen3.5 和 Gemma 4 的微调版本，定位是“zero-shot（零样本）”分类器——你描述一个场景、列一堆选项，Jeff 一次前向计算就返回每个选项的校准概率，不生成文本、不用解析，在 RTX PRO 6000 上约 22 毫秒出一次决策，Apple M4 Max（MLX...",
+      "fetched_at": "2026-10-03T05:20:37+00:00"
+    },
+    {
+      "source": "开源中国",
+      "region": "国内",
+      "title": "Claude Sonnet 5.5 发布：速度快 3 成、Agent 编程评测从 10% 跳到 70%",
+      "link": "https://www.oschina.net/news/502794/claude-sonnet-5-5",
+      "published": "2026-09-29T12:14:33+08:00",
+      "summary": "Claude 5.5 家族的第二个成员今天发布：Sonnet 5.5。Anthropic 把它定位成 Opus 5.5 的「快而省」互补款——专攻范围明确的高频日常任务、修 bug、做文档和表格，还强调它有敏锐的设计眼光。官方口径一句话：比 Sonnet 5 清晰升级，速度快 30% 以上，多数任务成本低 30%。 性能数据的跳跃有点夸张。Sonnet 5.5 在 agenti...",
+      "fetched_at": "2026-10-03T05:20:37+00:00"
+    },
+    {
+      "source": "开源中国",
+      "region": "国内",
+      "title": "Java Web 服务器 wastnet mvc 开发实战",
+      "link": "https://www.oschina.net/news/502793",
+      "published": "2026-09-29T11:54:02+08:00",
+      "summary": "用 wastnet MVC 写接口服务（实战教程） wastnet 是一款完全自研、零第三方依赖的轻量级 Java 网络应用框架，核心基于 JDK 原生 NIO 构建 Reactor 多路复用模型，HTTP/2 协议栈从 HPACK、Huffman 到 ALPN 均为自主实现。其 wastnet-mvc 模块在核心之上提供注解驱动的 MVC / 轻量 IoC 能力：@Controller、@Endpoint、@Re...",
+      "fetched_at": "2026-10-03T05:20:37+00:00"
+    },
+    {
+      "source": "开源中国",
+      "region": "国内",
+      "title": "CyreneAdmin 1.5.0 发布：新增 i18n 与 E2E 测试，全面升级前后端依赖",
+      "link": "https://www.oschina.net/news/502792",
+      "published": "2026-09-29T11:52:10+08:00",
+      "summary": "CyreneAdmin 是一款面向企业级应用的后台管理系统脚手架，同时支持 Spring Boot 与 Solon 双框架，内置权限控制、用户管理、菜单配置、操作日志等核心模块，助力开发者快速构建安全、可维护的管理后台。 最新版本 v1.5.0 已正式发布，主要更新内容如下： Bug Fixes 完善E2E验证范围覆盖 修复请求头name为Authorization 修...",
+      "fetched_at": "2026-10-03T05:20:37+00:00"
+    },
+    {
+      "source": "开源中国",
+      "region": "国内",
+      "title": "🔥「可信Data+智能体AI」本体工作坊",
+      "link": "https://www.oschina.net/event/8598411",
+      "published": "2026-09-29T11:51:13+08:00",
+      "summary": "",
+      "fetched_at": "2026-10-03T05:20:37+00:00"
+    },
+    {
+      "source": "开源中国",
+      "region": "国内",
+      "title": "AMD 花 82 亿美元买下李飞飞的 World Labs，她直接空降成首席科学家",
+      "link": "https://www.oschina.net/news/502790/amd-will-acquire-fei-fei-lis-world-labs-for-8-2-billion",
+      "published": "2026-09-29T11:12:51+08:00",
+      "summary": "AMD 用 82 亿美元换了一张通往「真实世界 AI」的门票。周一官方宣布收购 World Labs——这位由李飞飞 2024 年创立的旧金山 AI 实验室，曾经投资过它的 AMD 这次全资以股票形式买下，交易预计今年年底前完成，待监管审批。李飞飞将以执行副总裁兼首席科学家的身份加入 AMD。 这笔交易是 AMD 史上第二大收购，仅次于 2022...",
+      "fetched_at": "2026-10-03T05:20:37+00:00"
+    },
+    {
+      "source": "开源中国",
+      "region": "国内",
+      "title": ":clap:工单管理系统 WGCAT v1.3.1 新增知识库",
+      "link": "https://www.oschina.net/news/502789",
+      "published": "2026-09-29T11:09:51+08:00",
+      "summary": "WGCAT 是 WGCLOUD 团队精心开发的一款工单管理系统，设计一如既往的的简单实用，具有部署方便，上手容易，性能优秀，界面友好等特点。 WGCAT 工单系统中，每个人都可以新建工单，每个账号都具有新建工单的权限，而且还有对外提供的工单提交接口，当工单在流转过程中，你也可以评论工单，工单每次流转都会给经办人，也就是...",
+      "fetched_at": "2026-10-03T05:20:37+00:00"
+    },
+    {
+      "source": "开源中国",
+      "region": "国内",
+      "title": "Manus 2.0 发布：自研框架 Cascade 省 32% 成本，视频编辑器把时间线交到你手上",
+      "link": "https://www.oschina.net/news/502788/manus-2-0",
+      "published": "2026-09-29T10:53:06+08:00",
+      "summary": "Manus 2.0 今天上线，官方把它定义成一次架构级更新，而不是又一个小版本。整场发布围绕一个根本问题展开：下一代 Manus 应该长什么样？答案落成三块新东西——自研 Agent 框架 Cascade、桌面应用升级成共享工作区 Manus Studio，以及一款独立的个人 Agent 应用 Cue。 Cascade 的卖点是效率。它让项目从开始就保持轻量，...",
+      "fetched_at": "2026-10-03T05:20:37+00:00"
+    },
+    {
+      "source": "开源中国",
+      "region": "国内",
+      "title": "2026 openKylin 社区年度技术贡献评选开启，共享高光时刻！",
+      "link": "https://www.oschina.net/news/502787",
+      "published": "2026-09-29T10:50:31+08:00",
+      "summary": "在广大开发者与社区伙伴的携手努力下，OpenAtom openKylin（简称\"openKylin\"）社区又迎来了一年创新涌动、协作共进的丰收征程。为感谢在过去一年中积极推动社区技术创新的杰出贡献者， 2026 openKylin 社区年度技术贡献申报通道正式开启。所有为 openKylin 社区技术发展做出突出贡献的个人、企业及团队组织，均可参与申报...",
+      "fetched_at": "2026-10-03T05:20:37+00:00"
+    },
+    {
+      "source": "开源中国",
+      "region": "国内",
+      "title": "JuiceFS 企业版 5.4：从千亿文件到百万客户端",
+      "link": "https://www.oschina.net/news/502786/juicefs-enterprise-edition-v5-4",
+      "published": "2026-09-29T10:41:51+08:00",
+      "summary": "继 JuiceFS 企业版 v5.3 支撑千亿文件规模之后，v5.4 进一步在超大规模场景下提升多项能力。千亿文件规模下，单次操作的细小开销也会累积成显著的资源负担，元数据分区部署后需要协调不同节点，兼顾性能、数据一致性与稳定性。围绕这些问题，v5.4 版本包含下面多项新功能和改进： 百万客户端同时挂载； 海量文件规模的目...",
+      "fetched_at": "2026-10-03T05:20:37+00:00"
+    },
+    {
+      "source": "开源中国",
+      "region": "国内",
+      "title": "wastnet v1.0.2 发布：强类型配置与 MVC 模块独立",
+      "link": "https://www.oschina.net/news/502777",
+      "published": "2026-09-29T09:16:44+08:00",
+      "summary": "wastnet v1.0.2 发布：强类型配置与 MVC 模块独立 wastnet 是一款完全自研、零第三方依赖的轻量级 Java 网络应用框架，核心基于 JDK 原生 NIO 构建 Reactor 多路复用模型，不依赖 Netty、Tomcat 等任何第三方网络库。其 HTTP/2 协议栈从 HPACK、Huffman 到 ALPN 均为自主实现，并支持直接加载 PEM 证书、原生 WebSocket ...",
+      "fetched_at": "2026-10-03T05:20:37+00:00"
+    },
+    {
+      "source": "开源中国",
+      "region": "国内",
+      "title": "go-carbon v2.6.18 正式版发布，轻量级、语义化的 golang 时间处理库",
+      "link": "https://www.oschina.net/news/502776",
+      "published": "2026-09-29T08:05:35+08:00",
+      "summary": "Carbon 是一个轻量级、语义化、对开发者友好的 golang 时间处理库，不依赖于 任何 第三方库， 100% 单元测试覆盖率，已被 docker 组织使用以及被 awesome-go 和 hello-github 收录，并获得 gitee 2024 年最有价值项目（GVP）和 gitcode 2024 年度开源摘星计划 (G-Star) 项目 document: carbon.go-pkg.com github: github...",
+      "fetched_at": "2026-10-03T05:20:37+00:00"
+    },
+    {
+      "source": "开源中国",
+      "region": "国内",
+      "title": "scrapy-cookbook 2.19版本发布，Python爬虫框架Scrapy橙皮书",
+      "link": "https://www.oschina.net/news/502775",
+      "published": "2026-09-28T23:18:20+08:00",
+      "summary": "Scrapy 是 Python 开发的著名爬虫框架，目前使用非常广泛。Scrapy橙皮书教程基于最新的 Scrapy 2.19 版本编写，通过实际的例子带领你一步步掌握 Scrapy 核心。 在线阅读: http://scrapy-cookbook.readthedocs.io/zh_CN/latest/ 目录结构 . ├── doc/ # Sphinx 文档源文件 │ ├── conf.py ...",
+      "fetched_at": "2026-10-03T05:20:37+00:00"
+    },
+    {
+      "source": "开源中国",
+      "region": "国内",
+      "title": "OpenAI 暂停最新模型训练，称 Agent 曾尝试黑进教育部网站",
+      "link": "https://www.oschina.net/news/502773",
+      "published": "2026-09-28T17:58:50+08:00",
+      "summary": "OpenAI 又把训练按下了暂停键。上周五披露了一连串越界行为之后，官方宣布停掉最新一批模型的训练，「只有在我们确信已有额外安全措施时」才恢复，而且已经预期「还会再次按下暂停」。这是三个月里的第二次——上一次是 7 月，起因是 Hugging Face 遭遇网络攻击。 消息源是 OpenAI 发布的一份关于越界行为的安全报告，T...",
+      "fetched_at": "2026-10-03T05:20:37+00:00"
+    },
+    {
+      "source": "开源中国",
+      "region": "国内",
+      "title": "Strands 开源组装好的 Agent harness，同模型下 token 省 28%",
+      "link": "https://www.oschina.net/news/502772/strands-harness",
+      "published": "2026-09-28T16:35:48+08:00",
+      "summary": "很多开发者的 AI Agent 依赖 Claude Code 或 Codex 这类开箱即用的 harness——本地一跑顺畅得很。可一旦要自己搭 agent，就得自己把各种原语拼到「刚刚好」的程度，才能找回那种「it just worked」的感觉。Strands 把这件事做成了一行代码：Strands harness，一个组装完整、可定制的通用 agent harness，接任意模型一行...",
+      "fetched_at": "2026-10-03T05:20:37+00:00"
+    },
+    {
+      "source": "开源中国",
+      "region": "国内",
+      "title": "AIGCPanel v2.5.0 支持豆包语音音色，数字人直播音色模板管理",
+      "link": "https://www.oschina.net/news/502770",
+      "published": "2026-09-28T15:26:11+08:00",
+      "summary": "这次更新让云端语音模型填个 API Key 就能用，也把数字人与直播的音色收进各自独立的音色库。 AIGCPanel 是一款一站式 AI 数字人桌面应用，Windows / macOS / Linux 都能跑，内置数字人合成、语音合成与克隆、工具箱和智能直播。没有本地显卡、又想做语音合成的用户，过去只能干看着模型列表发愁。v2.5.0 把云端语音厂商...",
+      "fetched_at": "2026-10-03T05:20:37+00:00"
+    },
+    {
+      "source": "开源中国",
+      "region": "国内",
+      "title": "QuotaPanel v0.1.0 轻量本地 AI 额度看板，聚合 15 种订阅与 API 余额",
+      "link": "https://www.oschina.net/news/502769",
+      "published": "2026-09-28T15:25:33+08:00",
+      "summary": "把散在各家控制台里的订阅与 API 余额，收进一张桌面面板。 QuotaPanel 是一个开源的桌面端 AI 额度面板。Claude、ChatGPT / Codex、Cursor、GitHub Copilot、Z.ai、Kimi、MiniMax、OpenRouter、DeepSeek……订阅开得越多，额度就越分散，想查一次往往要挨个登录控制台。v0.1.0 把 15 种订阅与 API 余额集中到一张界面上...",
+      "fetched_at": "2026-10-03T05:20:37+00:00"
+    },
+    {
+      "source": "开源中国",
+      "region": "国内",
+      "title": "DataTalk Studio 开源：用对话完成报表开发的 AI-native BI 工作区",
+      "link": "https://www.oschina.net/news/502768",
+      "published": "2026-09-28T15:04:27+08:00",
+      "summary": "DataTalk Studio 是一个面向数据分析师、业务人员和开发团队的 AI-native BI 工作区，目标是用自然语言完成报表创建、修改、校验、发布和复用。 传统 BI 流程通常需要在数据源管理、指标定义、SQL 编写、图表配置和报表发布等多个工具之间反复切换。DataTalk Studio 尝试把这些环节组织到同一个工作区中：用户可以通过对...",
+      "fetched_at": "2026-10-03T05:20:37+00:00"
+    },
+    {
+      "source": "开源中国",
+      "region": "国内",
+      "title": "C++ Web框架Paozhu v1.17.0发布，添加MQTT，网络支付",
+      "link": "https://www.oschina.net/news/502767",
+      "published": "2026-09-28T14:50:18+08:00",
+      "summary": "Paozhu 重构了webpay模块 公网测试了支付宝支付 微信v2, v3版支付，小程序支付。网站使用 微信native支付 无需年费，应用于低频次支付场景。 Paozhu 已经是金丹修为的框架，提供了完善了web开发，而无需依赖第三方。 配置参考 conf/webpay.conf 配置文件 # 演示数据，需要你填入你真正的数据 # 微信支付 V2（jscode2sess...",
+      "fetched_at": "2026-10-03T05:20:37+00:00"
+    }
+  ]
+}

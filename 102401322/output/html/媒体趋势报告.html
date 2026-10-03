@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>科技媒体大模型趋势报告 · 102401322</title>
+<script src="../assets/echarts.min.js"></script>
+<style>
+  body { margin:0; padding:24px 30px 44px; background:#0b1524; color:#E8F1FF;
+         font-family:"Microsoft YaHei","PingFang SC",sans-serif; }
+  h1 { font-size:26px; margin:0 0 6px;
+        background:linear-gradient(90deg,#4C8DFF,#38D9C0,#FFB84C);
+        -webkit-background-clip:text; background-clip:text; color:transparent; }
+  p.sub { color:#7C93B5; font-size:13px; margin:0 0 20px; }
+  .kpis { display:grid; grid-template-columns:repeat(4,1fr); gap:14px; margin-bottom:20px; }
+  .kpi { background:linear-gradient(160deg,rgba(76,141,255,.16),rgba(56,217,192,.06));
+          border:1px solid rgba(76,141,255,.32); border-radius:12px;
+          padding:14px; text-align:center; }
+  .kpi .v { font-size:24px; font-weight:700; color:#7FE3FF; }
+  .kpi .l { font-size:12px; color:#8FA7C7; margin-top:4px; }
+  .card { background:rgba(16,30,51,.72); border:1px solid rgba(76,141,255,.20);
+           border-radius:14px; padding:12px; margin-bottom:18px; }
+  .chart { width:100%; height:380px; }
+  .note { color:#9FB3D1; font-size:13px; line-height:1.7; padding:4px 10px 10px; }
+  table { width:100%; border-collapse:collapse; font-size:13px; }
+  th, td { padding:7px 10px; border-bottom:1px solid #1E3350; text-align:left; }
+  th { background:#12233c; color:#9FB3D1; }
+  a { color:#7FE3FF; text-decoration:none; }
+  tr:hover td { background:#12233c; }
+</style>
+</head>
+<body>
+  <h1>科技媒体大模型观点与趋势报告</h1>
+  <p class="sub">附加题 · 学号 102401322 · 数据来源：主流科技媒体 RSS 订阅源</p>
+
+  <section class="kpis">
+    <div class="kpi"><div class="v">124</div><div class="l">采集文章总数</div></div>
+    <div class="kpi"><div class="v">7</div><div class="l">媒体来源数</div></div>
+    <div class="kpi"><div class="v">52%</div><div class="l">大模型相关占比</div></div>
+    <div class="kpi"><div class="v">5</div><div class="l">覆盖月份数</div></div>
+  </section>
+
+  <div class="card"><div class="chart" id="trend"></div>
+    <div class="note">大模型相关报道：完整且连续的月份不足 3 个（RSS 订阅源只暴露近期文章），样本量太小，不给出预测。</div></div>
+  <div class="card"><div class="chart" id="videotrend"></div>
+    <div class="note">B站相关视频：对最近 8 个完整连续月份（2026-02 ~ 2026-09）做一元线性拟合，斜率 +13.62 篇/月，R²=0.43，趋势判断为「上升」。预测区间是 ±1.96 倍残差标准差（约 95% 置信）。局限说明：媒体发文量和视频发布量都受突发事件驱动，线性外推只能反映惯性，不算严谨预测。</div></div>
+  <div class="card"><div class="chart" id="topic"></div>
+    <div class="note">对比说明：两侧比例的分母不一样（各自话题命中的总量），
+    所以比的是<b>相对关注度</b>。差值越大，说明媒体的议程和用户的关切越不同步。</div></div>
+  <div class="card">
+    <h3 style="margin:6px 10px 12px;font-size:16px;">部分代表性文章</h3>
+    <table><thead><tr><th>来源</th><th>标题</th></tr></thead><tbody><tr><td>量子位</td><td><a href="https://www.qbitai.com/2026/10/501368.html" target="_blank" rel="noopener">OpenAI安全团队持续地震！负责人离职，三名员工因泄密被开</a></td></tr><tr><td>量子位</td><td><a href="https://www.qbitai.com/2026/10/500148.html" target="_blank" rel="noopener">Jev估值100亿美元！创始人Diogo Almeida回答一切</a></td></tr><tr><td>量子位</td><td><a href="https://www.qbitai.com/2026/10/500098.html" target="_blank" rel="noopener">openJiuwen X-Router自演进模型路由技术首发，昇腾亲和，Agent越跑越省，实测减少50+%Token消耗</a></td></tr><tr><td>量子位</td><td><a href="https://www.qbitai.com/2026/10/499991.html" target="_blank" rel="noopener">丘成桐新论文致谢了GPT和Claude</a></td></tr><tr><td>量子位</td><td><a href="https://www.qbitai.com/2026/10/499958.html" target="_blank" rel="noopener">arXiv最严新规！每人每月最多提交2篇，拒稿不退额度</a></td></tr><tr><td>量子位</td><td><a href="https://www.qbitai.com/2026/10/499812.html" target="_blank" rel="noopener">何恺明团队新作：看猫片就能学会ARC挑战</a></td></tr><tr><td>量子位</td><td><a href="https://www.qbitai.com/2026/10/499663.html" target="_blank" rel="noopener">谷歌Gemini 4突然发布！RSI加持，GPT和Opus都让让</a></td></tr><tr><td>量子位</td><td><a href="https://www.qbitai.com/2026/09/499654.html" target="_blank" rel="noopener">OpenAI推理之父最新访谈！数学只是多智能体时代的开胃菜</a></td></tr><tr><td>量子位</td><td><a href="https://www.qbitai.com/2026/09/499605.html" target="_blank" rel="noopener">直播回顾：工业AI的下一个机会在哪？</a></td></tr><tr><td>量子位</td><td><a href="https://www.qbitai.com/2026/09/499597.html" target="_blank" rel="noopener">Anthropic，你是来给智谱打广告的吧！</a></td></tr><tr><td>InfoQ 中国</td><td><a href="https://www.infoq.cn/article/bLB8RQ6sd3ZGQts0D4tP?utm_source=rss&utm_medium=article" target="_blank" rel="noopener">企业级 Agent Infra 架构实践：从安全沙箱到网络管控与身份治理｜QCon上海</a></td></tr><tr><td>InfoQ 中国</td><td><a href="https://www.infoq.cn/article/eRbEA3dMd58RNPqp5D8S?utm_source=rss&utm_medium=article" target="_blank" rel="noopener">Andrew Kelley 专访：他为何创建 Zig、禁止 AI 贡献以及将 Zig 从 GitHub 移出</a></td></tr><tr><td>InfoQ 中国</td><td><a href="https://www.infoq.cn/article/8XuP4iZKKr3ex2VTDxpl?utm_source=rss&utm_medium=article" target="_blank" rel="noopener">Graphify：整合代码库上下文，优化基于代理的软件工程</a></td></tr><tr><td>InfoQ 中国</td><td><a href="https://www.infoq.cn/article/DEyrayxufObhpoeZgOKT?utm_source=rss&utm_medium=article" target="_blank" rel="noopener">别再给 Agent 一个“毛坯房”了：构建 Agent 拎包入住的开发环境实践｜QCon上海</a></td></tr><tr><td>InfoQ 中国</td><td><a href="https://www.infoq.cn/article/P5yCYKFiJfKAICrf8bfs?utm_source=rss&utm_medium=article" target="_blank" rel="noopener">在 Cloudflare Worker 上实现多租户 SaaS 规模的模块化边缘计算</a></td></tr></tbody></table>
+  </div>
+
+  <script>
+  const CHARTS = {"trend": {"backgroundColor": "transparent", "title": {"text": "科技媒体大模型报道热度与趋势外推", "left": 14, "top": 10, "textStyle": {"color": "#E8F1FF", "fontSize": 16}}, "tooltip": {"backgroundColor": "rgba(16,30,51,.94)", "borderColor": "#4C8DFF", "textStyle": {"color": "#E8F1FF"}, "trigger": "axis"}, "legend": {"data": ["全部科技报道", "大模型相关报道"], "right": 16, "top": 12, "textStyle": {"color": "#9FB3D1"}}, "grid": {"left": "3%", "right": "4%", "top": 64, "bottom": 46, "containLabel": true}, "xAxis": {"type": "category", "data": ["2026-01", "2026-05", "2026-08", "2026-09", "2026-10"], "axisLabel": {"color": "#9FB3D1", "rotate": 45}}, "yAxis": {"type": "value", "axisLabel": {"color": "#9FB3D1"}, "splitLine": {"lineStyle": {"color": "#1E3350"}}}, "series": [{"name": "全部科技报道", "type": "line", "smooth": false, "data": [2, 1, 4, 75, 42], "lineStyle": {"width": 2, "color": "#FFB84C"}, "itemStyle": {"color": "#FFB84C"}}, {"name": "大模型相关报道", "type": "line", "smooth": false, "data": [2, 0, 3, 35, 25], "lineStyle": {"width": 3, "color": "#4C8DFF"}, "itemStyle": {"color": "#4C8DFF"}, "areaStyle": {"color": "#4C8DFF", "opacity": 0.16}}]}, "videotrend": {"backgroundColor": "transparent", "title": {"text": "B站大模型相关视频发布量的月度趋势与外推", "left": 14, "top": 10, "textStyle": {"color": "#E8F1FF", "fontSize": 16}}, "tooltip": {"backgroundColor": "rgba(16,30,51,.94)", "borderColor": "#4C8DFF", "textStyle": {"color": "#E8F1FF"}, "trigger": "axis"}, "legend": {"data": ["每月新增相关视频", "趋势外推"], "right": 16, "top": 12, "textStyle": {"color": "#9FB3D1"}}, "grid": {"left": "3%", "right": "4%", "top": 64, "bottom": 46, "containLabel": true}, "xAxis": {"type": "category", "data": ["2021-01", "2022-04", "2022-07", "2022-09", "2022-10", "2022-12", "2023-01", "2023-10", "2024-05", "2024-07", "2024-09", "2024-10", "2024-11", "2024-12", "2025-01", "2025-02", "2025-03", "2025-04", "2025-05", "2025-06", "2025-07", "2025-08", "2025-09", "2025-10", "2025-11", "2025-12", "2026-01", "2026-02", "2026-03", "2026-04", "2026-05", "2026-06", "2026-07", "2026-08", "2026-09", "2026-10", "2026-10", "2026-11", "2026-12"], "axisLabel": {"color": "#9FB3D1", "rotate": 45}}, "yAxis": {"type": "value", "axisLabel": {"color": "#9FB3D1"}, "splitLine": {"lineStyle": {"color": "#1E3350"}}}, "series": [{"name": "每月新增相关视频", "type": "line", "smooth": false, "data": [1, 1, 1, 1, 1, 1, 1, 1, 1, 3, 2, 1, 1, 1, 1, 3, 4, 1, 4, 4, 3, 5, 1, 1, 5, 1, 6, 4, 5, 8, 7, 14, 6, 25, 153, 60, null, null, null], "lineStyle": {"width": 3, "color": "#4C8DFF"}, "itemStyle": {"color": "#4C8DFF"}, "areaStyle": {"color": "#4C8DFF", "opacity": 0.16}}, {"name": "趋势外推", "type": "line", "smooth": false, "data": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 60, 89, 103, 116], "lineStyle": {"width": 2, "type": "dashed", "color": "#FF6B81"}, "itemStyle": {"color": "#FF6B81"}}]}, "topic": {"backgroundColor": "transparent", "title": {"text": "话题关注度对比：媒体 vs B站用户", "left": 14, "top": 10, "textStyle": {"color": "#E8F1FF", "fontSize": 16}}, "tooltip": {"backgroundColor": "rgba(16,30,51,.94)", "borderColor": "#4C8DFF", "textStyle": {"color": "#E8F1FF"}, "trigger": "axis", "axisPointer": {"type": "shadow"}}, "legend": {"data": ["科技媒体", "B站弹幕"], "right": 16, "top": 12, "textStyle": {"color": "#9FB3D1"}}, "grid": {"left": "3%", "right": "6%", "top": 64, "bottom": 26, "containLabel": true}, "xAxis": {"type": "value", "axisLabel": {"color": "#9FB3D1", "formatter": "{value}%"}, "splitLine": {"lineStyle": {"color": "#1E3350"}}}, "yAxis": {"type": "category", "data": ["教育学习", "办公效率", "编程开发", "科研学术", "生活服务", "商业金融", "内容创作", "医疗健康", "硬件算力"], "axisLabel": {"color": "#D6E4FF"}}, "series": [{"name": "科技媒体", "type": "bar", "data": [4.48, 28.36, 23.88, 13.43, 5.22, 9.7, 3.73, 1.49, 9.7], "itemStyle": {"color": "#4C8DFF", "borderRadius": [0, 5, 5, 0]}}, {"name": "B站弹幕", "type": "bar", "data": [37.22, 9.26, 11.52, 8.71, 9.67, 5.39, 6.78, 2.08, 9.36], "itemStyle": {"color": "#38D9C0", "borderRadius": [0, 5, 5, 0]}}]}};
+  Object.keys(CHARTS).forEach(function (key) {
+    const dom = document.getElementById(key);
+    if (!dom) return;
+    const chart = echarts.init(dom, null, {renderer: 'canvas'});
+    chart.setOption(CHARTS[key]);
+    window.addEventListener('resize', function () { chart.resize(); });
+  });
+</script>
+</body>
+</html>
