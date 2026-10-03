@@ -85,7 +85,7 @@ python scripts/profile_analysis.py       # 性能剖析
 | 爬虫 | requests + 自研 wbi 签名 | 不依赖第三方 B 站 SDK，签名算法自行实现 |
 | 解析 | 标准库 `zlib` / 手写 protobuf varint 解析 | XML(deflate) 与 protobuf 双通道互为兜底 |
 | 中文处理 | jieba（自定义领域词典） | 避免"大语言模型"被切碎 |
-| 匹配加速 | 自研 Aho-Corasick 自动机 | 433 个模式一次扫描，实测提速 16.5 倍 |
+| 匹配加速 | 自研 Aho-Corasick 自动机 | 433 个模式一次扫描，实测提速 12.5 倍 |
 | 统计与导出 | pandas + openpyxl | 13 个工作表，带表头样式 |
 | 可视化 | matplotlib + wordcloud + Apache ECharts | 词云/统计图离线生成，大屏为自建 HTML |
 | 测试 | pytest + pytest-cov | 155 个用例，核心模块覆盖率 92%~99% |
