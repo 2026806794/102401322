@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Coverage for src\crawler\wbi.py: 96%</title>
+    <link rel="icon" sizes="32x32" href="favicon_32_cb_c827f16f.png">
+    <link rel="stylesheet" href="style_cb_0853b3de.css" type="text/css">
+    <script src="coverage_html_cb_c6c441fc.js" defer></script>
+</head>
+<body class="pyfile">
+<header>
+    <div class="content">
+        <h1>
+            <span class="text">Coverage for </span><b>src<span class="sep">\</span>crawler<span class="sep">\</span>wbi.py</b>:
+            <span class="pc_cov">96%</span>
+        </h1>
+        <aside id="help_panel_wrapper">
+            <input id="help_panel_state" type="checkbox">
+            <label for="help_panel_state">
+                <img id="keyboard_icon" src="keybd_closed_cb_900cfef5.png" alt="Show/hide keyboard shortcuts">
+            </label>
+            <div id="help_panel">
+                <p class="legend">Shortcuts on this page</p>
+                <div class="keyhelp">
+                    <p>
+                        <kbd>r</kbd>
+                        <kbd>m</kbd>
+                        <kbd>x</kbd>
+                        <kbd>p</kbd>
+                        &nbsp; toggle line displays
+                    </p>
+                    <p>
+                        <kbd>j</kbd>
+                        <kbd>k</kbd>
+                        &nbsp; next/prev highlighted chunk
+                    </p>
+                    <p>
+                        <kbd>0</kbd> &nbsp; (zero) top of page
+                    </p>
+                    <p>
+                        <kbd>1</kbd> &nbsp; (one) first highlighted chunk
+                    </p>
+                    <p>
+                        <kbd>[</kbd>
+                        <kbd>]</kbd>
+                        &nbsp; prev/next file
+                    </p>
+                    <p>
+                        <kbd>u</kbd> &nbsp; up to the index
+                    </p>
+                    <p>
+                        <kbd>?</kbd> &nbsp; show/hide this help
+                    </p>
+                </div>
+            </div>
+        </aside>
+        <h2>
+            <span class="text">35 statements &nbsp;</span>
+            <button type="button" class="run button_toggle_run" value="run" data-shortcut="r" title="Toggle lines run">34<span class="text"> run</span></button>
+            <button type="button" class="mis show_mis button_toggle_mis" value="mis" data-shortcut="m" title="Toggle lines missing">1<span class="text"> missing</span></button>
+            <button type="button" class="exc show_exc button_toggle_exc" value="exc" data-shortcut="x" title="Toggle lines excluded">0<span class="text"> excluded</span></button>
+            <button type="button" class="par run show_par button_toggle_par" value="par" data-shortcut="p" title="Toggle lines partially run">1<span class="text"> partial</span></button>
+        </h2>
+        <p class="text">
+            <a id="prevFileLink" class="nav" href="z_c0a383f9d6d96e73_media_spider_py.html">&#xab; prev</a> &nbsp; &nbsp;
+            <a id="indexLink" class="nav" href="index.html">&Hat; index</a> &nbsp; &nbsp;
+            <a id="nextFileLink" class="nav" href="z_145eef247bfb46b6_pipeline_py.html">&#xbb; next</a>
+            &nbsp; &nbsp; &nbsp;
+            <a class="nav" href="https://coverage.readthedocs.io/en/7.16.2">coverage.py v7.16.2</a>,
+            created at 2026-10-03 17:08 +0800
+        </p>
+        <aside class="hidden">
+            <button type="button" class="button_next_chunk" data-shortcut="j"></button>
+            <button type="button" class="button_prev_chunk" data-shortcut="k"></button>
+            <button type="button" class="button_top_of_page" data-shortcut="0"></button>
+            <button type="button" class="button_first_chunk" data-shortcut="1"></button>
+            <button type="button" class="button_prev_file" data-shortcut="["></button>
+            <button type="button" class="button_next_file" data-shortcut="]"></button>
+            <button type="button" class="button_to_index" data-shortcut="u"></button>
+            <button type="button" class="button_show_hide_help" data-shortcut="?"></button>
+        </aside>
+    </div>
+</header>
+<main id="source">
+    <p class="pln"><span class="n"><a id="t1" href="#t1">1</a></span><span class="t"><span class="str">&quot;&quot;&quot;B&#31449; wbi &#25509;&#21475;&#31614;&#21517;&#12290;</span>&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t2" href="#t2">2</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t3" href="#t3">3</a></span><span class="t"><span class="str">2023 &#24180;&#20043;&#21518; B&#31449; web &#31471;&#30340;&#25509;&#21475;&#22823;&#37096;&#20998;&#37117;&#35201;&#24102; w_rid &#21644; wts &#20004;&#20010;&#21442;&#25968;&#65292;</span>&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t4" href="#t4">4</a></span><span class="t"><span class="str">&#19981;&#24102;&#23601;&#20250;&#36820;&#22238; -403 &#25110; -412&#12290;&#31614;&#21517;&#31639;&#27861;&#26159;&#21069;&#31471; js &#37324;&#30340;&#65292;&#25105;&#29031;&#30528;&#23427;&#30340;&#36923;&#36753;&#29992; Python &#37325;&#20889;&#20102;&#19968;&#36941;&#65306;</span>&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t5" href="#t5">5</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t6" href="#t6">6</a></span><span class="t"><span class="str">    1. &#20808;&#35831;&#27714; nav &#25509;&#21475;&#65292;&#25343;&#21040; img_url &#21644; sub_url&#65292;&#25226;&#25991;&#20214;&#21517;&#65288;&#21435;&#25481; .png&#65289;&#25130;&#20986;&#26469;&#65292;</span>&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t7" href="#t7">7</a></span><span class="t"><span class="str">       &#20998;&#21035;&#21483; img_key &#21644; sub_key&#65307;</span>&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t8" href="#t8">8</a></span><span class="t"><span class="str">    2. &#25226;&#20004;&#20010; key &#25340;&#25104;&#19968;&#20010; 64 &#20301;&#30340;&#23383;&#31526;&#20018;&#65292;&#25353;&#19979;&#38754;&#36825;&#24352;&#22266;&#23450;&#30340;&#32622;&#25442;&#34920;&#37325;&#26032;&#25490;&#21015;&#65292;</span>&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t9" href="#t9">9</a></span><span class="t"><span class="str">       &#21462;&#21069; 32 &#20301;&#65292;&#24471;&#21040; mixin_key&#65288;&#36825;&#20010; key &#27599;&#22825;&#20250;&#25442;&#65289;&#65307;</span>&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t10" href="#t10">10</a></span><span class="t"><span class="str">    3. &#35831;&#27714;&#21442;&#25968;&#37324;&#21152;&#19978;&#26102;&#38388;&#25139; wts&#65292;&#25353;&#21442;&#25968;&#21517;&#30340;&#23383;&#27597;&#39034;&#24207;&#25490;&#22909;&#65292;</span>&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t11" href="#t11">11</a></span><span class="t"><span class="str">       &#24182;&#19988;&#25226;&#20540;&#37324;&#30340; !&#x27;()* &#36825;&#20960;&#20010;&#23383;&#31526;&#21435;&#25481;&#65307;</span>&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t12" href="#t12">12</a></span><span class="t"><span class="str">    4. &#25226;&#25490;&#22909;&#30340;&#21442;&#25968;&#25340;&#25104; query &#23383;&#31526;&#20018;&#65292;&#21518;&#38754;&#25509;&#19978; mixin_key&#65292;&#31639; md5&#65292;&#23601;&#26159; w_rid&#12290;</span>&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t13" href="#t13">13</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t14" href="#t14">14</a></span><span class="t"><span class="str">&#36825;&#37324;&#30340;&#20989;&#25968;&#37117;&#26159;&#32431;&#20989;&#25968;&#65288;&#19981;&#32852;&#32593;&#65289;&#65292;&#25152;&#20197;&#21487;&#20197;&#30452;&#25509;&#20889;&#21333;&#20803;&#27979;&#35797;&#12290;</span>&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t15" href="#t15">15</a></span><span class="t"><span class="str">&quot;&quot;&quot;</span>&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t16" href="#t16">16</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t17" href="#t17">17</a></span><span class="t"><span class="key">import</span> <span class="nam">hashlib</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t18" href="#t18">18</a></span><span class="t"><span class="key">import</span> <span class="nam">time</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t19" href="#t19">19</a></span><span class="t"><span class="key">from</span> <span class="nam">urllib</span><span class="op">.</span><span class="nam">parse</span> <span class="key">import</span> <span class="nam">urlencode</span>&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t20" href="#t20">20</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t21" href="#t21">21</a></span><span class="t"><span class="com"># &#21069;&#31471;&#37324;&#20889;&#27515;&#30340;&#32622;&#25442;&#34920;&#65292;&#20849; 64 &#20010;&#20301;&#32622;</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t22" href="#t22">22</a></span><span class="t"><span class="nam">MIXIN_KEY_ENC_TAB</span> <span class="op">=</span> <span class="op">[</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run run2"><span class="n"><a id="t23" href="#t23">23</a></span><span class="t">    <span class="num">46</span><span class="op">,</span> <span class="num">47</span><span class="op">,</span> <span class="num">18</span><span class="op">,</span> <span class="num">2</span><span class="op">,</span> <span class="num">53</span><span class="op">,</span> <span class="num">8</span><span class="op">,</span> <span class="num">23</span><span class="op">,</span> <span class="num">32</span><span class="op">,</span> <span class="num">15</span><span class="op">,</span> <span class="num">50</span><span class="op">,</span> <span class="num">10</span><span class="op">,</span> <span class="num">31</span><span class="op">,</span> <span class="num">58</span><span class="op">,</span> <span class="num">3</span><span class="op">,</span> <span class="num">45</span><span class="op">,</span> <span class="num">35</span><span class="op">,</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run run2"><span class="n"><a id="t24" href="#t24">24</a></span><span class="t">    <span class="num">27</span><span class="op">,</span> <span class="num">43</span><span class="op">,</span> <span class="num">5</span><span class="op">,</span> <span class="num">49</span><span class="op">,</span> <span class="num">33</span><span class="op">,</span> <span class="num">9</span><span class="op">,</span> <span class="num">42</span><span class="op">,</span> <span class="num">19</span><span class="op">,</span> <span class="num">29</span><span class="op">,</span> <span class="num">28</span><span class="op">,</span> <span class="num">14</span><span class="op">,</span> <span class="num">39</span><span class="op">,</span> <span class="num">12</span><span class="op">,</span> <span class="num">38</span><span class="op">,</span> <span class="num">41</span><span class="op">,</span> <span class="num">13</span><span class="op">,</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run run2"><span class="n"><a id="t25" href="#t25">25</a></span><span class="t">    <span class="num">37</span><span class="op">,</span> <span class="num">48</span><span class="op">,</span> <span class="num">7</span><span class="op">,</span> <span class="num">16</span><span class="op">,</span> <span class="num">24</span><span class="op">,</span> <span class="num">55</span><span class="op">,</span> <span class="num">40</span><span class="op">,</span> <span class="num">61</span><span class="op">,</span> <span class="num">26</span><span class="op">,</span> <span class="num">17</span><span class="op">,</span> <span class="num">0</span><span class="op">,</span> <span class="num">1</span><span class="op">,</span> <span class="num">60</span><span class="op">,</span> <span class="num">51</span><span class="op">,</span> <span class="num">30</span><span class="op">,</span> <span class="num">4</span><span class="op">,</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run run2"><span class="n"><a id="t26" href="#t26">26</a></span><span class="t">    <span class="num">22</span><span class="op">,</span> <span class="num">25</span><span class="op">,</span> <span class="num">54</span><span class="op">,</span> <span class="num">21</span><span class="op">,</span> <span class="num">56</span><span class="op">,</span> <span class="num">59</span><span class="op">,</span> <span class="num">6</span><span class="op">,</span> <span class="num">63</span><span class="op">,</span> <span class="num">57</span><span class="op">,</span> <span class="num">62</span><span class="op">,</span> <span class="num">11</span><span class="op">,</span> <span class="num">36</span><span class="op">,</span> <span class="num">20</span><span class="op">,</span> <span class="num">34</span><span class="op">,</span> <span class="num">44</span><span class="op">,</span> <span class="num">52</span><span class="op">,</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run run2"><span class="n"><a id="t27" href="#t27">27</a></span><span class="t"><span class="op">]</span>&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t28" href="#t28">28</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t29" href="#t29">29</a></span><span class="t"><span class="com"># &#21442;&#19982;&#31614;&#21517;&#30340;&#21442;&#25968;&#20540;&#37324;&#38656;&#35201;&#36807;&#28388;&#25481;&#30340;&#23383;&#31526;</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t30" href="#t30">30</a></span><span class="t"><span class="nam">FILTER_CHARS</span> <span class="op">=</span> <span class="str">&quot;!&#x27;()*&quot;</span>&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t31" href="#t31">31</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t32" href="#t32">32</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t33" href="#t33">33</a></span><span class="t"><span class="key">def</span> <span class="nam">extract_key_from_url</span><span class="op">(</span><span class="nam">url</span><span class="op">)</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t34" href="#t34">34</a></span><span class="t">    <span class="str">&quot;&quot;&quot;&#20174; wbi &#22270;&#29255;&#22320;&#22336;&#37324;&#25130;&#20986; key&#12290;</span>&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t35" href="#t35">35</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t36" href="#t36">36</a></span><span class="t"><span class="str">    &#20363;&#65306;https://i0.hdslb.com/bfs/wbi/7cd084941338484aae1ad9425b84077c.png</span>&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t37" href="#t37">37</a></span><span class="t"><span class="str">        -&gt; 7cd084941338484aae1ad9425b84077c</span>&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t38" href="#t38">38</a></span><span class="t"><span class="str">    &quot;&quot;&quot;</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t39" href="#t39">39</a></span><span class="t">    <span class="nam">filename</span> <span class="op">=</span> <span class="nam">url</span><span class="op">.</span><span class="nam">rsplit</span><span class="op">(</span><span class="str">&quot;/&quot;</span><span class="op">,</span> <span class="num">1</span><span class="op">)</span><span class="op">[</span><span class="op">-</span><span class="num">1</span><span class="op">]</span>      <span class="com"># &#21462;&#26368;&#21518;&#19968;&#27573;</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t40" href="#t40">40</a></span><span class="t">    <span class="key">return</span> <span class="nam">filename</span><span class="op">.</span><span class="nam">rsplit</span><span class="op">(</span><span class="str">&quot;.&quot;</span><span class="op">,</span> <span class="num">1</span><span class="op">)</span><span class="op">[</span><span class="num">0</span><span class="op">]</span>      <span class="com"># &#21435;&#25481;&#25193;&#23637;&#21517;</span>&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t41" href="#t41">41</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t42" href="#t42">42</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t43" href="#t43">43</a></span><span class="t"><span class="key">def</span> <span class="nam">get_mixin_key</span><span class="op">(</span><span class="nam">img_key</span><span class="op">,</span> <span class="nam">sub_key</span><span class="op">)</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t44" href="#t44">44</a></span><span class="t">    <span class="str">&quot;&quot;&quot;&#25226; img_key + sub_key &#25353;&#32622;&#25442;&#34920;&#25171;&#20081;&#65292;&#21462;&#21069; 32 &#20301;&#20316;&#20026; mixin_key&#12290;&quot;&quot;&quot;</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t45" href="#t45">45</a></span><span class="t">    <span class="nam">raw</span> <span class="op">=</span> <span class="nam">img_key</span> <span class="op">+</span> <span class="nam">sub_key</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t46" href="#t46">46</a></span><span class="t">    <span class="key">if</span> <span class="nam">len</span><span class="op">(</span><span class="nam">raw</span><span class="op">)</span> <span class="op">&lt;</span> <span class="num">64</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t47" href="#t47">47</a></span><span class="t">        <span class="com"># &#38271;&#24230;&#19981;&#22815;&#35828;&#26126; key &#25343;&#38169;&#20102;&#65292;&#30452;&#25509;&#25253;&#38169;&#27604;&#40664;&#40664;&#31639;&#20986;&#20010;&#38169;&#30340;&#31614;&#21517;&#22909;</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t48" href="#t48">48</a></span><span class="t">        <span class="key">raise</span> <span class="nam">ValueError</span><span class="op">(</span><span class="str">&quot;img_key/sub_key &#38271;&#24230;&#19981;&#36275;&#65292;&#26080;&#27861;&#29983;&#25104; mixin_key&quot;</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t49" href="#t49">49</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t50" href="#t50">50</a></span><span class="t">    <span class="nam">shuffled</span> <span class="op">=</span> <span class="str">&quot;&quot;</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t51" href="#t51">51</a></span><span class="t">    <span class="key">for</span> <span class="nam">index</span> <span class="key">in</span> <span class="nam">MIXIN_KEY_ENC_TAB</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t52" href="#t52">52</a></span><span class="t">        <span class="nam">shuffled</span> <span class="op">+=</span> <span class="nam">raw</span><span class="op">[</span><span class="nam">index</span><span class="op">]</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t53" href="#t53">53</a></span><span class="t">    <span class="key">return</span> <span class="nam">shuffled</span><span class="op">[</span><span class="op">:</span><span class="num">32</span><span class="op">]</span>&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t54" href="#t54">54</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t55" href="#t55">55</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t56" href="#t56">56</a></span><span class="t"><span class="key">def</span> <span class="nam">sign_params</span><span class="op">(</span><span class="nam">params</span><span class="op">,</span> <span class="nam">img_key</span><span class="op">,</span> <span class="nam">sub_key</span><span class="op">,</span> <span class="nam">timestamp</span><span class="op">=</span><span class="key">None</span><span class="op">)</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t57" href="#t57">57</a></span><span class="t">    <span class="str">&quot;&quot;&quot;&#32473;&#35831;&#27714;&#21442;&#25968;&#21152;&#19978; wts &#21644; w_rid&#12290;</span>&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t58" href="#t58">58</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t59" href="#t59">59</a></span><span class="t"><span class="str">    &#21442;&#25968;&#65306;</span>&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t60" href="#t60">60</a></span><span class="t"><span class="str">        params    &#8212;&#8212; &#21407;&#22987;&#21442;&#25968;&#23383;&#20856;</span>&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t61" href="#t61">61</a></span><span class="t"><span class="str">        img_key   &#8212;&#8212; nav &#25509;&#21475;&#36820;&#22238;&#30340; img_key</span>&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t62" href="#t62">62</a></span><span class="t"><span class="str">        sub_key   &#8212;&#8212; nav &#25509;&#21475;&#36820;&#22238;&#30340; sub_key</span>&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t63" href="#t63">63</a></span><span class="t"><span class="str">        timestamp &#8212;&#8212; &#26102;&#38388;&#25139;&#65292;&#20256;&#36827;&#26469;&#26159;&#20026;&#20102;&#27979;&#35797;&#26102;&#33021;&#22266;&#23450;&#20303;&#32467;&#26524;</span>&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t64" href="#t64">64</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t65" href="#t65">65</a></span><span class="t"><span class="str">    &#36820;&#22238;&#19968;&#20010;&#26032;&#30340;&#23383;&#20856;&#65288;&#19981;&#20462;&#25913;&#20256;&#36827;&#26469;&#30340; params&#65289;&#12290;</span>&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t66" href="#t66">66</a></span><span class="t"><span class="str">    &quot;&quot;&quot;</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t67" href="#t67">67</a></span><span class="t">    <span class="nam">mixin_key</span> <span class="op">=</span> <span class="nam">get_mixin_key</span><span class="op">(</span><span class="nam">img_key</span><span class="op">,</span> <span class="nam">sub_key</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t68" href="#t68">68</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t69" href="#t69">69</a></span><span class="t">    <span class="com"># &#20808;&#25226;&#21442;&#25968;&#20540;&#30340;&#29305;&#27530;&#23383;&#31526;&#36807;&#28388;&#25481;</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t70" href="#t70">70</a></span><span class="t">    <span class="nam">signed</span> <span class="op">=</span> <span class="op">{</span><span class="op">}</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t71" href="#t71">71</a></span><span class="t">    <span class="key">for</span> <span class="nam">key</span><span class="op">,</span> <span class="nam">value</span> <span class="key">in</span> <span class="nam">params</span><span class="op">.</span><span class="nam">items</span><span class="op">(</span><span class="op">)</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t72" href="#t72">72</a></span><span class="t">        <span class="nam">cleaned</span> <span class="op">=</span> <span class="str">&quot;&quot;</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t73" href="#t73">73</a></span><span class="t">        <span class="key">for</span> <span class="nam">ch</span> <span class="key">in</span> <span class="nam">str</span><span class="op">(</span><span class="nam">value</span><span class="op">)</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t74" href="#t74">74</a></span><span class="t">            <span class="key">if</span> <span class="nam">ch</span> <span class="key">not</span> <span class="key">in</span> <span class="nam">FILTER_CHARS</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t75" href="#t75">75</a></span><span class="t">                <span class="nam">cleaned</span> <span class="op">+=</span> <span class="nam">ch</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t76" href="#t76">76</a></span><span class="t">        <span class="nam">signed</span><span class="op">[</span><span class="nam">key</span><span class="op">]</span> <span class="op">=</span> <span class="nam">cleaned</span>&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t77" href="#t77">77</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t78" href="#t78">78</a></span><span class="t">    <span class="com"># &#21152;&#26102;&#38388;&#25139;&#65292;&#28982;&#21518;&#25353;&#21442;&#25968;&#21517;&#25490;&#24207;</span>&nbsp;</span><span class="r"></span></p>
+    <p class="par run show_par"><span class="n"><a id="t79" href="#t79">79</a></span><span class="t">    <span class="key">if</span> <span class="nam">timestamp</span> <span class="key">is</span> <span class="key">None</span><span class="op">:</span>&nbsp;</span><span class="r"><span class="annotate short">79&#x202F;&#x219B;&#x202F;80</span><span class="annotate long">line 79 didn't jump to line 80 because the condition on line 79 was never true</span></span></p>
+    <p class="mis show_mis"><span class="n"><a id="t80" href="#t80">80</a></span><span class="t">        <span class="nam">timestamp</span> <span class="op">=</span> <span class="nam">time</span><span class="op">.</span><span class="nam">time</span><span class="op">(</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t81" href="#t81">81</a></span><span class="t">    <span class="nam">signed</span><span class="op">[</span><span class="str">&quot;wts&quot;</span><span class="op">]</span> <span class="op">=</span> <span class="nam">int</span><span class="op">(</span><span class="nam">timestamp</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t82" href="#t82">82</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t83" href="#t83">83</a></span><span class="t">    <span class="nam">sorted_keys</span> <span class="op">=</span> <span class="nam">sorted</span><span class="op">(</span><span class="nam">signed</span><span class="op">.</span><span class="nam">keys</span><span class="op">(</span><span class="op">)</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t84" href="#t84">84</a></span><span class="t">    <span class="nam">ordered</span> <span class="op">=</span> <span class="op">{</span><span class="op">}</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t85" href="#t85">85</a></span><span class="t">    <span class="key">for</span> <span class="nam">key</span> <span class="key">in</span> <span class="nam">sorted_keys</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t86" href="#t86">86</a></span><span class="t">        <span class="nam">ordered</span><span class="op">[</span><span class="nam">key</span><span class="op">]</span> <span class="op">=</span> <span class="nam">signed</span><span class="op">[</span><span class="nam">key</span><span class="op">]</span>&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t87" href="#t87">87</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t88" href="#t88">88</a></span><span class="t">    <span class="nam">query</span> <span class="op">=</span> <span class="nam">urlencode</span><span class="op">(</span><span class="nam">ordered</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t89" href="#t89">89</a></span><span class="t">    <span class="nam">signed</span><span class="op">[</span><span class="str">&quot;w_rid&quot;</span><span class="op">]</span> <span class="op">=</span> <span class="nam">hashlib</span><span class="op">.</span><span class="nam">md5</span><span class="op">(</span><span class="op">(</span><span class="nam">query</span> <span class="op">+</span> <span class="nam">mixin_key</span><span class="op">)</span><span class="op">.</span><span class="nam">encode</span><span class="op">(</span><span class="str">&quot;utf-8&quot;</span><span class="op">)</span><span class="op">)</span><span class="op">.</span><span class="nam">hexdigest</span><span class="op">(</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t90" href="#t90">90</a></span><span class="t">    <span class="key">return</span> <span class="nam">signed</span>&nbsp;</span><span class="r"></span></p>
+</main>
+<footer>
+    <div class="content">
+        <p>
+            <a class="nav" href="z_c0a383f9d6d96e73_media_spider_py.html">&#xab; prev</a> &nbsp; &nbsp;
+            <a class="nav" href="index.html">&Hat; index</a> &nbsp; &nbsp;
+            <a class="nav" href="z_145eef247bfb46b6_pipeline_py.html">&#xbb; next</a>
+            &nbsp; &nbsp; &nbsp;
+            <a class="nav" href="https://coverage.readthedocs.io/en/7.16.2">coverage.py v7.16.2</a>,
+            created at 2026-10-03 17:08 +0800
+        </p>
+    </div>
+</footer>
+</body>
+</html>
