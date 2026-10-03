@@ -20,8 +20,8 @@ logs/
 
 # 爬取的弹幕原始缓存有 27MB，太大了不入库；想复现就重新爬一遍
 data/raw/danmaku/*.json
-# 清洗后的弹幕明细有 19MB，属于可再生的中间结果，也不入库
-data/processed/danmaku_clean.jsonl
+# 清洗后的弹幕明细（19MB）入库，这样 clone 下来就能直接跑 analyze 和 visualize，
+# 不用重新爬 40 分钟
 
 # 下面这些是要交的，别被上面的规则误伤
 !output/performance/*.prof
