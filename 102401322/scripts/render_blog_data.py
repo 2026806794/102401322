@@ -199,7 +199,7 @@ def main():
         text = pattern.sub(lambda m, r=replacement: r, text, count=1)
         log.info("已注入 %s", key)
 
-    BLOG_PATH.write_text(text, encoding="utf-8")
+    BLOG_PATH.write_text(text, encoding="utf-8", newline="\n")
     log.info("博客数据注入完成：%s", BLOG_PATH)
     if missing:
         log.info("博客里没找到这些占位符（可以忽略）：%s", "、".join(missing))

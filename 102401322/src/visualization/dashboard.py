@@ -318,6 +318,6 @@ def build_dashboard(payload):
 
     path = HTML_DIR / "可视化大屏.html"
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(html, encoding="utf-8")
+    path.write_text(html, encoding="utf-8", newline="\n")
     log.info("已生成可视化大屏：%s（%.0f KB）", path.name, path.stat().st_size / 1024.0)
     return path

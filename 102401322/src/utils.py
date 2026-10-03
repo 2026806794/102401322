@@ -62,16 +62,20 @@ def read_json(path, default=None):
 
 
 def write_json(path, data, indent=2):
-    """把对象写成 json 文件，父目录不存在会自动建。"""
+    """把对象写成 json 文件，父目录不存在会自动建。
+
+    指定 newline="\n" 是为了让输出的换行符固定成 LF，
+    不然 Windows 上会写成 CRLF，和 .gitattributes 里声明的不一致。
+    """
     path.parent.mkdir(parents=True, exist_ok=True)
-    with open(path, "w", encoding="utf-8") as f:
+    with open(path, "w", encoding="utf-8", newline="\n") as f:
         json.dump(data, f, ensure_ascii=False, indent=indent)
 
 
 def append_jsonl(path, rows):
     """追加写 JSON Lines（一行一个 json）。弹幕数据量大，用这个格式方便边抓边存。"""
     path.parent.mkdir(parents=True, exist_ok=True)
-    with open(path, "a", encoding="utf-8") as f:
+    with open(path, "a", encoding="utf-8", newline="\n") as f:
         for row in rows:
             f.write(json.dumps(row, ensure_ascii=False) + "\n")
 

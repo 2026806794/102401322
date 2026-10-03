@@ -56,7 +56,7 @@ def run_clean(force=False):
     cleaner = DanmakuCleaner(min_length=DEFAULT_ANALYSIS_CONFIG.min_word_length)
     kept, stats = cleaner.clean_batch(raw_records)
 
-    with open(DANMAKU_CLEAN_FILE, "w", encoding="utf-8") as f:
+    with open(DANMAKU_CLEAN_FILE, "w", encoding="utf-8", newline="\n") as f:
         for record in kept:
             f.write(json.dumps(record, ensure_ascii=False) + "\n")
 

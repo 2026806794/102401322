@@ -405,7 +405,7 @@ def build_trend_report(trend):
 
     path = HTML_DIR / "媒体趋势报告.html"
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(html, encoding="utf-8")
+    path.write_text(html, encoding="utf-8", newline="\n")
     log.info("已生成媒体趋势报告：%s", path.name)
     return path
 
