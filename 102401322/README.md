@@ -114,8 +114,9 @@ python scripts/profile_analysis.py       # 性能剖析
   避免个别头部视频（十几小时的合集课）数据量失控。
 * **趋势预测的局限**：RSS 订阅源只暴露近期文章，媒体侧时间序列样本有限；
   因此趋势外推的主证据使用 B 站视频的发布时间序列，并在报告中明确标注局限。
-* **仓库里没有爬取的原始数据**：`data/raw/` 下的弹幕缓存有 27MB，
-  清洗后的明细也有 19MB，都是可再生的中间结果，没有入库。
-  想复现的话执行 `python main.py all` 重新爬一遍即可（大约 40 分钟）。
-* **本机 github.com 访问受限**：如果 `git push` 报连接重置，
-  可以用 `python scripts/push_via_api.py <用户名>/<仓库名>` 走 API 推送。
+* **仓库里的数据**：清洗后的弹幕明细（`data/processed/danmaku_clean.jsonl`，约 19MB）
+  已经入库，所以 clone 下来可以直接跑 `analyze`、`visualize`、`media` 复现结果。
+  爬取的原始缓存（`data/raw/danmaku/`，27MB）没有入库，
+  想从零走一遍完整流程的话执行 `python main.py all` 重新爬（大约 40 分钟）。
+* **本机 github.com 访问受限时**：如果 `git push` 报连接重置，
+  可以用 `python scripts/push_via_api.py <用户名>/<仓库名>` 走 GitHub API 推送。
