@@ -83,7 +83,7 @@ python scripts/profile_analysis.py       # 性能剖析
 | ---- | ---- | ---- |
 | 语言 | Python 3.13 | 作业要求 Python3，附 `requirements.txt` |
 | 爬虫 | requests + 自研 wbi 签名 | 不依赖第三方 B 站 SDK，签名算法自行实现 |
-| 解析 | 标准库 `zlib` / 手写 protobuf varint 解析 | XML(deflate) 与 protobuf 双通道互为兜底 |
+| 解析 | 标准库 `zlib` / 手写 protobuf varint 解析 | 三级弹幕通道互为兜底（XML 直链 / XML 接口 / protobuf 分段） |
 | 中文处理 | jieba（自定义领域词典） | 避免"大语言模型"被切碎 |
 | 匹配加速 | 自研 Aho-Corasick 自动机 | 433 个模式一次扫描，实测提速 12.5 倍 |
 | 统计与导出 | pandas + openpyxl | 13 个工作表，带表头样式 |
